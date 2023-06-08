@@ -16,6 +16,7 @@ module.exports = {
     },
     fontFamily:{
       'custom': ['Ubuntu', 'K2D'],
+      'headingFont': ['Bungee Shade', 'cursive'],
     },
   },
   plugins: [],

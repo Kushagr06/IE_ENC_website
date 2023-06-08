@@ -8,10 +8,10 @@ function Heading(props) {
                             <div>
                           <img src={Dots} alt="....." className='opacity-50 m-0 ml-16 xl:w-[50vw] w-[100vw] h-auto' />
                           </div>
-                      <div className=' flex text-[7vh] xl:-mt-[40vh] -mt-[20vh] text-highlight text-right font-semibold'>
+                      <div className=' flex text-[6vh] xl:-mt-[40vh] -mt-[20vh] text-highlight text-right font-headingFont font-semibold tracking-tighter'>
                       {props.text}
                       </div>
-                      <div className=' text-[2.2vh] text-center tracking-wider'>
+                      <div className=' text-[2.2vh] text-center tracking-wider font-custom mt-2'>
                      {props.subtext}
                       </div>
                       </div> 
