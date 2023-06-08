@@ -12,7 +12,7 @@ module.exports = {
       },
     },
     fontFamily:{
-      'custom': ['Signika', 'K2D'],
+      'custom': ['Ubuntu', 'K2D'],
     },
   },
   plugins: [],
