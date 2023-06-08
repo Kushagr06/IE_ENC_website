@@ -14,12 +14,14 @@ function Hero() {
     }
 });
   return (
-    <div >
+    <div className='h-screen'>
     <div className='flex xl:flex-row flex-col mx-2' >
 
       <div className='flex justify-center flex-col text-center '>
-                
-                      <div className=' flex items-center text-[8vh]  text-highlight text-center'>
+                            <div>
+                          <img src={Dots} alt="....." className='opacity-50 m-0 ml-16' />
+                          </div>
+                      <div className=' flex text-[8vh] -mt-[40vh] text-highlight text-right'>
                       Welcome to IE-E&C
                       </div>
                       <div className=' text-[2.5vh] text-center tracking-tight'>
@@ -31,13 +33,11 @@ function Hero() {
                 </div>     
 
       </div>
-    <div className='flex justify-center sm:mt-0 sm:scale-100 scale-[0.5] -mt-[20vh]'>
+    <div className='flex justify-start sm:mt-0 sm:scale-[.90] scale-[0.5] -mt-[20vh]'>
       <Banner bannercolor={rectColor} />
       </div>
     </div>
-    <div className='-mt-[30vh]'>
-    <img src={Dots} alt="....." />
-    </div>
+    
     </div>
   );
 }
