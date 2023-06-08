@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Banner from './components/Banner';
+import { useState, useEffect } from 'react';
+
 
 function App() {
+
+  const[rectColor, rectColorSet] = useState('#907AD6')
+  useEffect(() => {
+    if (rectColor === '#907AD6' || rectColor === '#DABFFF') {
+        const timeoutID = setTimeout(() => {
+            rectColorSet(rectColor === '#907AD6' ? '#DABFFF' : '#907AD6');
+        }, 500);
+        return () => clearTimeout(timeoutID);
+    }
+});
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-background' >
+  <Banner bannercolor={rectColor} />
     </div>
   );
 }
