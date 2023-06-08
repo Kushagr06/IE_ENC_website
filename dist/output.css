@@ -571,6 +571,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .bg-background {
   --tw-bg-opacity: 1;
   background-color: rgb(44 42 74 / var(--tw-bg-opacity));

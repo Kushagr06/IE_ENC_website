@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import Banner from './Banner';
+import Dots from '../assets/dots.svg'
 
 function Hero() {
   const[rectColor, rectColorSet] = useState('#907AD6')
@@ -13,8 +14,20 @@ function Hero() {
     }
 });
   return (
-    <div className='bg-background' >
-  <Banner bannercolor={rectColor} />
+    <div >
+    <div className='flex flex-row' >
+      <div className='flex justify-center items-center flex-col'>
+
+                <div className=' text-3xl text-center'>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptates odio quos et, labore sint adipisci quibusdam excepturi perferendis molestias omnis! Voluptatum incidunt enim facilis qui accusantium recusandae voluptate error.
+                </div>
+                <img src={Dots} alt="....." />
+
+      </div>
+    <div>
+      <Banner bannercolor={rectColor} />
+      </div>
+    </div>
     </div>
   );
 }
