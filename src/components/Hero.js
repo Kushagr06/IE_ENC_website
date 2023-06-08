@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import Banner from './Banner';
-import Dots from '../assets/dots.svg'
+import Heading from './Heading';
 
 function Hero() {
   const[rectColor, rectColorSet] = useState('#907AD6')
@@ -18,20 +18,8 @@ function Hero() {
     <div className='flex xl:flex-row flex-col mx-10 xl:-mt-16' >
 
       <div className='flex justify-center flex-col text-center items-center overflow-hidden'>
-                      <div className='conatiner'>
-                            <div>
-                          <img src={Dots} alt="....." className='opacity-50 m-0 ml-16 xl:w-[50vw] w-[100vw] h-auto' />
-                          </div>
-                      <div className=' flex text-[7vh] xl:-mt-[40vh] -mt-[20vh] text-highlight text-right font-semibold'>
-                      Welcome to IE-E&C
-                      </div>
-                      <div className=' text-[2.2vh] text-center tracking-wider'>
-                      We are the official Electroniczs and Communication sclub of Manipal.
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni modi repellat illum deleniti consectetur ex obcaecati ipsum repudiandae commodi molestiae sapiente aliquam praesentium fugiat impedit vitae, enim minus eveniet accusantium.
-                      </div>
-                      </div> 
-                <div>
-                </div>     
+
+      <Heading text="Welcome to IE-E&C" subtext=" We are the official Electroniczs and Communication sclub of Manipal.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni modi repellat illum deleniti consectetur ex obcaecati ipsum repudiandae commodi molestiae sapiente aliquam praesentium fugiat impedit vitae, enim minus eveniet accusantium." /> 
 
       </div>
     <div className='flex justify-center md:mt-0 md:scale-[.90] scale-[0.4] -mt-[30vh] '>
