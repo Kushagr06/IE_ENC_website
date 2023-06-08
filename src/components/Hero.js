@@ -15,7 +15,7 @@ function Hero() {
 });
   return (
     <div>
-    <div className='flex xl:flex-row flex-col mx-10' >
+    <div className='flex xl:flex-row flex-col mx-10 xl:-mt-16' >
 
       <div className='flex justify-center flex-col text-center items-center overflow-hidden'>
                       <div className='conatiner'>
