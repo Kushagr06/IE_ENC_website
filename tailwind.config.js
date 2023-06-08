@@ -10,6 +10,9 @@ module.exports = {
         secondary:'#4F518C',
         highlight:'#77DDEE',
       },
+      backgroundImage:{
+        'backpattern':"url('/src/assets/background.png')"
+      }
     },
     fontFamily:{
       'custom': ['Ubuntu', 'K2D'],

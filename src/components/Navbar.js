@@ -7,7 +7,7 @@ function Navbar() {
 
 const prop=` w-full md:block md:w-auto ${toggle}`
  return (
- <div className=' overflow-clip pb-20 bg-background font-semibold'> 
+ <div className=' overflow-clip pb-20 bg-background font-custom'> 
 <nav  className="px-2 sm:px-4 fixed top-0 left-0 right-0 z-10 overflow-hidden md:bg-transparent bg-background rounded-xl">
  <div className="container flex flex-wrap items-center justify-between mx-auto">
 
