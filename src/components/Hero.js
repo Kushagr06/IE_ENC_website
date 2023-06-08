@@ -34,7 +34,7 @@ function Hero() {
                 </div>     
 
       </div>
-    <div className='flex justify-center xl:mt-0 xl:scale-[.90] scale-[0.4] -mt-[30vh] '>
+    <div className='flex justify-center md:mt-0 md:scale-[.90] scale-[0.4] -mt-[30vh] '>
       <Banner bannercolor={rectColor} />
       </div>
     </div>
