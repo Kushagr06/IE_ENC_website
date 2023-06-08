@@ -1,6 +1,4 @@
 import './App.css';
-import Banner from './components/Banner';
-import { useState, useEffect } from 'react';
 import Hero from './components/Hero';
 
 

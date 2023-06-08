@@ -17,9 +17,9 @@ function Hero() {
     <div >
     <div className='flex xl:flex-row flex-col mx-2' >
 
-      <div className='flex justify-center flex-col '>
+      <div className='flex justify-center flex-col text-center '>
                 
-                      <div className=' flex items-center text-[7vh] text-center'>
+                      <div className=' flex items-center text-[8vh]  text-highlight text-center'>
                       Welcome to IE-E&C
                       </div>
                       <div className=' text-[2.5vh] text-center tracking-tight'>
