@@ -8,7 +8,7 @@ function App() {
 
  
   return (
-    <div className='bg-background font-custom text-textcol' >
+    <div className='bg-background font-custom text-textcol overflow-hidden' >
  <Hero />
     </div>
   );
