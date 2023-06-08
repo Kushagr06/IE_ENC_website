@@ -1,22 +1,15 @@
 import './App.css';
 import Banner from './components/Banner';
 import { useState, useEffect } from 'react';
+import Hero from './components/Hero';
 
 
 function App() {
 
-  const[rectColor, rectColorSet] = useState('#907AD6')
-  useEffect(() => {
-    if (rectColor === '#907AD6' || rectColor === '#DABFFF') {
-        const timeoutID = setTimeout(() => {
-            rectColorSet(rectColor === '#907AD6' ? '#DABFFF' : '#907AD6');
-        }, 500);
-        return () => clearTimeout(timeoutID);
-    }
-});
+ 
   return (
     <div className='bg-background' >
-  <Banner bannercolor={rectColor} />
+ <Hero />
     </div>
   );
 }
