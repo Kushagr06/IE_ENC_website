@@ -18,8 +18,8 @@ function App() {
       paused={false}
       options={{
         height:120,
-        amplitude:100,
-        speed:0.40,
+        amplitude:110,
+        speed:0.4,
         points:4
       }}
       />
