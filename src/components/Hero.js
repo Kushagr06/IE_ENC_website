@@ -22,7 +22,7 @@ function Hero() {
       <Heading text="Welcome to IE-E&C" subtext=" We are the official Electroniczs and Communication sclub of Manipal.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni modi repellat illum deleniti consectetur ex obcaecati ipsum repudiandae commodi molestiae sapiente aliquam praesentium fugiat impedit vitae, enim minus eveniet accusantium." /> 
 
       </div>
-    <div className='flex justify-center md:mt-0 md:scale-[.90] scale-[0.4] -mt-[30vh] '>
+    <div className='flex justify-center md:mt-0 md:scale-[.90] scale-[0.4] -mt-[30vh] md:-mb-[10vh] -mb-[40vh] '>
       <Banner bannercolor={rectColor} />
       </div>
     </div>
