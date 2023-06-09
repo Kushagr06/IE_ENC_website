@@ -12,7 +12,7 @@ function Heading(props) {
                       <div className=' flex text-[6.2vh] xl:-mt-[40vh] -mt-[20vh] text-highlight text-right font-headingFont font-semibold tracking-tighter'>
                       {props.text}
                       </div>
-                      <div className=' text-[2.2vh] text-center tracking-wider font-custom font-semibold mt-2'>
+                      <div className=' text-[2.5vh] text-center tracking-widest font-custom font-semibold mt-2'>
                      {props.subtext}
                       </div>
                       </div> 
