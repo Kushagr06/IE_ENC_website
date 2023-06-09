@@ -2,6 +2,7 @@ import React from 'react'
 import Heading from './Heading';
 import Group from '../assets/group_photo.png'
 import '../App.css'
+import Board from './Board';
 
 function WhoWeAre() {
   return (
@@ -17,8 +18,9 @@ function WhoWeAre() {
       </div>
       <div>
        <img src={Group} alt="group_photo" id="groupImg" className='w-auto sm:h-[48vh] h-[25vh] m-2 border-8 border-secondary mb-4'/>
-      </div>
+      </div>     
     </div>
+    <Board />
     </>
   )
 }

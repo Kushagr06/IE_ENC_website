@@ -1,4 +1,5 @@
 import './App.css';
+import BoardCard from './components/BoardCard';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import WhoWeAre from './components/WhoWeAre';
@@ -10,7 +11,7 @@ function App() {
  
   return (
     <div className='bg-background text-textcol overflow-auto' id="main">
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <div>
       <Wave
@@ -24,7 +25,8 @@ function App() {
       }}
       />
       </div> 
-      <WhoWeAre />
+      <WhoWeAre /> */}
+      <BoardCard/>
     </div>
   );
 }
