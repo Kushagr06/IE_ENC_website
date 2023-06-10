@@ -15,8 +15,8 @@ function BoardCard() {
 
   return (
     <div className='flex-row justify-center overflow-auto flex-wrap inline-flex'>
+      
     {data.map((info)=>(
-
       <div className=' flex sm:m-4  md:m-2 -mx-[w/2] font-custom justify-center sm:scale-100 scale-[0.85]'>
         {/* picture */}
           <div className='rounded-full h-32 w-32 bg-primary border-2 border-highlight -mr-16 z-10 overflow-hidden object-center'>

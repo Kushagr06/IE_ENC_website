@@ -1,8 +1,10 @@
 import './App.css';
 import BoardCard from './components/BoardCard';
+import EventCards from './components/EventCards';
 import GetinTouch from './components/GetinTouch';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Upcoming from './components/Upcoming';
 import WhatWeDo from './components/WhatWeDo';
 import WhoWeAre from './components/WhoWeAre';
 import Wave from 'react-wavify'
@@ -30,6 +32,8 @@ function App() {
       <WhoWeAre />
       <WhatWeDo />
       <GetinTouch />
+      <Upcoming />
+   
     </div>
   );
 }
