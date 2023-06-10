@@ -17,7 +17,7 @@ function WhoWeAre() {
         80 WORKING COMMITTEE MEMBERS <br/>
       </div>
       <div>
-       <img src={Group} alt="group_photo" id="groupImg" className='w-auto sm:h-[48vh] h-[25vh] m-2 border-8 border-secondary mb-4'/>
+       <img src={Group} alt="group_photo" id="groupImg" className='w-auto sm:h-[48vh] md:h-[35vh] h-[22vh] m-2 border-8 border-secondary mb-4'/>
       </div>     
     </div>
     <Board />

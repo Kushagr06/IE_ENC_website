@@ -10,7 +10,7 @@
 
 
 #groupImg{
-  animation: borderColor infinite 2s;
+  animation: borderColor infinite 1s;
 }
 
 @keyframes borderColor{

@@ -11,7 +11,7 @@ function App() {
  
   return (
     <div className='bg-background text-textcol overflow-auto' id="main">
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <div>
       <Wave
@@ -25,8 +25,8 @@ function App() {
       }}
       />
       </div> 
-      <WhoWeAre /> */}
-      <BoardCard/>
+      <WhoWeAre />
+      
     </div>
   );
 }

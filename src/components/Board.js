@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Switch from "react-switch";
+import BoardCard from "./BoardCard";
 
 export default class Board extends Component {
   constructor() {
@@ -19,7 +20,9 @@ export default class Board extends Component {
       <span className="text-[5vh] font-custom px-5 font-semibold">The Board</span>
         <Switch onChange={this.handleChange} checked={this.state.checked} offColor="#4F518C" onColor="#4F518C" offHandleColor="#DABFFF" onHandleColor="#77DDEE" uncheckedIcon="" checkedIcon=""/>
         {this.state.checked?
-        <h1>On State</h1>:""}
+        <div>
+          <BoardCard />
+        </div>:""}
       </label>
       </div>
     );
