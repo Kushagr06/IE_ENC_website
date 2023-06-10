@@ -3,6 +3,7 @@ import BoardCard from './components/BoardCard';
 import GetinTouch from './components/GetinTouch';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import WhatWeDo from './components/WhatWeDo';
 import WhoWeAre from './components/WhoWeAre';
 import Wave from 'react-wavify'
 
@@ -27,6 +28,7 @@ function App() {
       />
       </div> 
       <WhoWeAre />
+      <WhatWeDo />
       <GetinTouch />
     </div>
   );
