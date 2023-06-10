@@ -17,11 +17,13 @@ function BoardCard() {
     <div className='flex-row justify-between overflow-auto flex-wrap inline-flex'>
     {data.map((info)=>(
 
-      <div className=' flex sm:m-4 md:m-2 -mx-[w/2] font-custom justify-center scale-[0.85]'>
+      <div className=' flex sm:m-4  md:m-2 -mx-[w/2] font-custom justify-center sm:scale-100 scale-[0.85]'>
+        {/* picture */}
           <div className='rounded-full h-32 w-32 bg-primary border-2 border-highlight -mr-16 z-10 overflow-hidden object-center'>
             <img src={info.picture.large} alt="Profile Pic" className='w-auto bg-cover max-w-full'/>
           </div>
-          <div className='rounded-xl w-64 h-80 bg-secondary border-4 border-primary'>
+          {/* card */}
+          <div className='rounded-2xl sm:mb-4 w-64 h-80 bg-secondary border-4 border-primary'>
           <div className='ml-20 mt-10 text-xl font-bold text-textcol tracking-widest w-auto h-14'>
           {info.name.first} {info.name.last}
           </div>

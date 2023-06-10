@@ -1,5 +1,6 @@
 import './App.css';
 import BoardCard from './components/BoardCard';
+import GetinTouch from './components/GetinTouch';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import WhoWeAre from './components/WhoWeAre';
@@ -26,7 +27,7 @@ function App() {
       />
       </div> 
       <WhoWeAre />
-      
+      <GetinTouch />
     </div>
   );
 }
