@@ -22,9 +22,17 @@ function EventCards() {
           </button>
       </div>
       </div>
+      <div className='flex flex-row'>
+      <div className='top-0 left-0 w-12 h-12 bg-primary rounded-full ml-2 mt-2 text-textcol font-semibold  overflow-auto text-center text-sm '>
+        Oct
+        <br/>
+        21
+      </div>
       {/* name&description */}
-      <div className='top-0 left-0 w-[21rem] h-12 bg-primary rounded-2xl ml-2 mt-2 text-textcol font-semibold text-lg overflow-auto text-center '>
-        Lorem ipsum dolor, sit amet 
+      <div className='top-0 left-0 w-[21rem] h-12 bg-primary rounded-2xl ml-2 mt-2 text-secondary font-semibold text-lg overflow-auto text-center '>
+        Event Name:
+        <span className='text-highlight'> A small description</span>
+      </div>
       </div>
       
     </div>
