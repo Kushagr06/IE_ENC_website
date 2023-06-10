@@ -9,7 +9,7 @@ function GetinTouch() {
     <div className='mx-5'>
       <Heading text="Get in Touch" subtext=" Here are a few links to help you get in touch with us :)" /> 
     </div>
-    <div className='flex xl:flex-row flex-col justify-center align-middle items-center mx-10 my-28'>
+    <div className='flex xl:flex-row flex-col justify-center align-middle items-center mx-10 sm:my-28 my-14'>
 
       {/* Instagram */}
           <a href="/insta">

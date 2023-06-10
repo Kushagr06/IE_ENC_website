@@ -29,10 +29,10 @@ export default class WhatWeDo extends Component {
         Pictures</div>
         </label>
 
-        <Switch className="mb-[1.5vh]" onChange={this.handleChange} checked={this.state.checked} offColor="#4F518C" onColor="#4F518C" offHandleColor="#DABFFF" onHandleColor="#77DDEE" uncheckedIcon="" checkedIcon=""/>
+        <Switch className="mb-[2vh]" onChange={this.handleChange} checked={this.state.checked} offColor="#4F518C" onColor="#4F518C" offHandleColor="#DABFFF" onHandleColor="#77DDEE" uncheckedIcon="" checkedIcon=""/>
         {this.state.checked?
         <div>
-          <h1>Active State</h1>
+          <h1>Show Pictures</h1>
         </div>:""}
     </div>
   )

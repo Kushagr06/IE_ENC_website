@@ -14,7 +14,7 @@ function BoardCard() {
   if(!data) return null
 
   return (
-    <div className='flex-row justify-between overflow-auto flex-wrap inline-flex'>
+    <div className='flex-row justify-center overflow-auto flex-wrap inline-flex'>
     {data.map((info)=>(
 
       <div className=' flex sm:m-4  md:m-2 -mx-[w/2] font-custom justify-center sm:scale-100 scale-[0.85]'>
