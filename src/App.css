@@ -31,15 +31,8 @@
   position: absolute;
   top:0;
   left:0;
-  
-}
+}   
 
-#tiangle{
-  position: absolute;
-  top:0;
-  left:0;
- 
-}
 
 @keyframes spin {
   from {

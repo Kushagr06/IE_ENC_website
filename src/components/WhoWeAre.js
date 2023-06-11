@@ -20,6 +20,9 @@ function WhoWeAre() {
        <img src={Group} alt="group_photo" id="groupImg" className='w-auto md:h-[40vh] h-[22vh] m-2 border-8 border-secondary mb-4'/>
       </div>     
     </div>
+    <div className=' text-[2.5vh] tracking-widest font-custom font-semibold m-2 ml-5'>
+                    Checkout the Board Members 
+                      </div>
     <Board />
     </div>
   )

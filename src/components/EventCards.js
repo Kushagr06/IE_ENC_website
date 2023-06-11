@@ -1,22 +1,25 @@
 import React from 'react'
 import axios from 'axios';
+import NoEvent from '../assets/noEvents.svg'
 
 
 function EventCards() {
 
   const baseURL=`https://randomuser.me/api/?results=12`
-  const [data, setData] = React.useState([]);
+  const [data, setData] = React.useState(null);
 
   React.useEffect(() => {
     axios.get(baseURL).then((response) => {
       setData(response.data.results);
     });
   }, []);
-  if(!data) return null
+
 
   return (
+    
     <div className='flex justify-center md:flex-row flex-col flex-wrap items-center align-middle m-2'>
- {data.map((info)=>(       
+      
+ {data?data.map((info)=>(       
     
      <div className='container w-[24rem] h-64 bg-secondary rounded-2xl border-4 border-primary sm:scale-100 scale-75 sm:m-5 -ml-10'> 
      <div className='flex flex-row'>
@@ -51,7 +54,15 @@ function EventCards() {
       </div>
     
     </div>
- ))}   
+ )):
+ <div className='flex justify-center flex-col'>
+ <img src={NoEvent} alt="Checkback soon for more Events :)" />
+ <div className=' text-xl font-headingFont text-highlight -mt-8'>
+    Checkback Later for Upcoming Events!!
+ </div>
+ </div>
+ }   
+
     </div>
   )
 }

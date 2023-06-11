@@ -8,7 +8,7 @@ function Pyramid() {
     
     <div className='relative top-0 left-0 '>
       
-      <img src={Tri} alt="triangle" id="traingle" />
+      <img src={Tri} alt="triangle" id="tri" className='scale-75'/>
       <img src={Ring} alt="ring" id="ring" />
     
     </div>
