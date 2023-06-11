@@ -14,7 +14,7 @@ function App() {
 
  
   return (
-    <div className='bg-background text-textcol overflow-auto' id="main">
+    <div className='bg-background text-textcol overflow-hidden' id="main">
       <Navbar />
       <Hero />
       <div>
