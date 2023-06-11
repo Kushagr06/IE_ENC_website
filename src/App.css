@@ -25,3 +25,27 @@
 50% {scale:1.15;
     background-color:#4F518C;}
 }
+
+#ring{
+  animation: spin 20s linear infinite;
+  position: absolute;
+  top:0;
+  left:0;
+  
+}
+
+#tiangle{
+  position: absolute;
+  top:0;
+  left:0;
+ 
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

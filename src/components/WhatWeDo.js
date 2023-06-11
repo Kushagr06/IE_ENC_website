@@ -1,6 +1,7 @@
 import React, { Component }  from 'react'
 import Heading from './Heading';
 import Switch from "react-switch";
+import Pyramid from './Pyramid';
 
 
 export default class WhatWeDo extends Component {
@@ -16,9 +17,12 @@ export default class WhatWeDo extends Component {
 
   render() {
   return (
-    <div>
+    <div className='mb-20'>
       <div className='mx-5'>
       <Heading text="What We Do" subtext="We are the official Electroniczs and Communication sclub of Manipal.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni modi repellat illum deleniti consectetur ex obcaecati ipsum repudiandae commodi molestiae sapiente aliquam praesentium fugiat impedit vitae, enim minus eveniet accusantium." /> 
+    </div>
+    <div className='flex justify-center'>
+      <Pyramid />
     </div>
     <label>
       <div className="text-[4.5vh] font-custom px-5 font-semibold inline-flex ml-[5vh] mt-5">

@@ -5,7 +5,7 @@ import EventCards from './EventCards';
 
 function Upcoming() {
   return (
-    <div>
+    <div className='mb-36'>
       <div className='mx-5'>
       <Heading text="Upcoming" subtext="Here are the Upcoming Events for the season" /> 
     </div>
