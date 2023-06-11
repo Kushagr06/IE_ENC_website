@@ -29,17 +29,17 @@ function Hero() {
      <svg  width="25px" height="25px" viewBox="0 0 24 24" id="down-trend-left" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color" ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M21.71,5.29a1,1,0,0,0-1.42,0L13,12.59l-2.29-2.3a1,1,0,0,0-1.42,0L4,15.59V14a1,1,0,0,0-2,0v4a1,1,0,0,0,1,1H7a1,1,0,0,0,0-2H5.41L10,12.41l2.29,2.3a1,1,0,0,0,1.42,0l8-8A1,1,0,0,0,21.71,5.29Z"></path></g></svg></span>
       Check Out Upcoming Events</button>
       </div>
-    <div className='flex justify-center sm:-mt-10 sm:scale-[.85] scale-[0.5] -mt-[28vh] sm:-mb-[10vh] -mb-[25vh]'>
+    <div className='flex justify-center sm:-mt-10 sm:scale-[.85] scale-[0.5] -mt-[28vh] sm:-mb-[10vh] -mb-[29.5vh]'>
       <Banner bannercolor={rectColor} />
       </div>
     </div>
-    <div className=' xl:-mt-[14rem] -mt-10'>
+    <div className=' xl:-mt-[13rem] -mt-10 opacity-[.50]'>
       <Wave
-      fill='#907AD6'
+      fill='#DABFFF'
       paused={false}
       options={{
-        height:140,
-        amplitude:140,
+        height:160,
+        amplitude:160,
         speed:0.4,
         points:5
       }}

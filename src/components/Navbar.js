@@ -26,28 +26,28 @@ const prop=` w-full md:block md:w-auto ${toggle}`
    <div className={prop} id="navbar-sticky">
      <ul className="flex flex-col md:flex-row md:space-x-10 md:text-sm md:font-light md:border-0 px-16 ">
      <li>
-         <a href="/" className=" md:text-xl block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
+         <a href="/" className=" md:text-lg block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
            <button>
            Who We Are
            </button>
            </a>
        </li>
        <li>
-         <a href="/events" className=" md:text-xl  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
+         <a href="/events" className=" md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
            <button>
            What We Do
            </button>
            </a>
        </li>
        <li>
-         <a href="/members" className="  md:text-xl  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
+         <a href="/members" className="  md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
            <button>
            Get in Touch
            </button>
            </a>
        </li>
        <li>
-         <a href="/alumni" className=" md:text-xl  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
+         <a href="/alumni" className=" md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
            <button>
           Resources
            </button>
