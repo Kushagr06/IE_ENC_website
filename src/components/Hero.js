@@ -34,8 +34,8 @@ function Hero() {
       </Link>
       </button>
       </div>
-    <div className='flex justify-center sm:-mt-10 sm:scale-[.85] scale-[0.5] -mt-[28vh] sm:-mb-[10vh] -mb-[29.5vh]'>
-      <Banner bannercolor={rectColor} />
+    <div className='flex justify-center sm:-mt-10 sm:scale-[.85] scale-[0.5] -mt-[28vh] sm:-mb-[10vh] -mb-[29.5vh] z-10'>
+      <Banner bannercolor={rectColor}  />
       </div>
     </div>
     <div className=' xl:-mt-[13rem] -mt-10 opacity-[.50]'>
@@ -43,10 +43,10 @@ function Hero() {
       fill='#DABFFF'
       paused={false}
       options={{
-        height:160,
-        amplitude:160,
+        height:90,
+        amplitude:70,
         speed:0.4,
-        points:5
+        points:4
       }}
       />
       </div> 

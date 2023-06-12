@@ -17,14 +17,7 @@
 50% {border-color:#77DDEE;}
 }
 
-#inner{
-  animation: circleExpanse infinite 2s;
-}
 
-@keyframes circleExpanse{
-50% {scale:1.15;
-    background-color:#4F518C;}
-}
 
 #ring{
   animation: spin 20s linear infinite;
