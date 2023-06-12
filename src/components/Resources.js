@@ -1,5 +1,6 @@
 import React from 'react'
 import Heading from './Heading';
+import Heart from '../assets/heart.svg'
 
 
 function Resources() {
@@ -11,7 +12,7 @@ function Resources() {
 
     <div className='flex justify-center mt-10'>
 
-      <div className='w-[75%] m-10 p-20 h-auto bg-primary rounded-2xl border-4 border-secondary align-middle flex justify-around text-[2.5vh] text-secondary md:flex-row flex-col font-medium relative'>
+      <div className='w-[75%] m-10 p-20 h-auto bg-primary rounded-2xl border-4 border-secondary align-middle flex justify-around text-[2.5vh] text-secondary md:flex-row flex-col font-medium relative ' >
 
           <div>
             <div className='text-[2.5vh] font-medium rounded-2xl p-1 border-2 border-secondary text-center'>
@@ -68,7 +69,8 @@ function Resources() {
     </div>
 
     </div>
-    <div className='text-center text-secondary text-lg font-medium mt-16'>
+    <div className='text-center items-center align-middle text-secondary text-lg font-medium mt-16'>
+      <span className='flex justify-center'><img src={Heart} alt="<3" /></span>
      Website made inHouse at IE-EnC  <br />
     </div>
     </div>
