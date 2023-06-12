@@ -5,7 +5,7 @@ import Heart from '../assets/heart.svg'
 
 function Resources() {
   return (
-    <div className='mb-36'>
+    <div className='mb-20' id="Resources">
     <div className='mx-5'>
       <Heading text="Resources" subtext=" Here we have a few resources you guys will find useful." /> 
     </div>
