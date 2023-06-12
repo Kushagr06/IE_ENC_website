@@ -12,9 +12,9 @@ function WhoWeAre() {
     </div>
     <div className='flex xl:flex-row flex-col-reverse mx-10 my-5 justify-around'>
       <div className='font-headingFont text-highlight md:text-[4vh] text-[3vh] flex justify-center items-center'>
-        12 BOARD MEMBERS <br/>
-        70 MANAGEMENT COMMITTEE MEMBERS <br/>
-        80 WORKING COMMITTEE MEMBERS <br/>
+        12 BOARD MEMBERS <br/><br/>
+        70 MANAGEMENT COMMITTEE MEMBERS <br/><br/>
+        80 WORKING COMMITTEE MEMBERS <br/><br/>
       </div>
       <div>
        <img src={Group} alt="group_photo" id="groupImg" className='w-auto md:h-[40vh] h-[22vh] m-2 border-8 border-secondary mb-4'/>
