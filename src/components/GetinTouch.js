@@ -1,7 +1,9 @@
 import React from 'react';
 import Heading from './Heading';
-import '../App.css'
-import Wave from 'react-wavify'
+import '../App.css';
+import Wave from 'react-wavify';
+import {motion} from 'framer-motion'
+
 
 
 function GetinTouch() {
@@ -10,6 +12,11 @@ function GetinTouch() {
     <div className='mx-5'>
       <Heading text="Get in Touch" subtext=" Here are a few links to help you get in touch with us :)" /> 
     </div>
+    <motion.div
+         initial={{x:250,opacity:0}}
+         whileInView={{x:0,opacity:1,transition:{duration:1}}}
+         viewport={{ once: true }}
+        > 
     <div className='flex xl:flex-row flex-col justify-center align-middle items-center mx-10 sm:my-28 my-14'>
 
       {/* Instagram */}
@@ -68,6 +75,7 @@ function GetinTouch() {
           </div>
           </a>
           </div>
+          </motion.div>
     </div>
   )
 }

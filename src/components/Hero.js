@@ -22,11 +22,16 @@ function Hero() {
     <div id="hero">
     <div className='flex xl:flex-row flex-col-reverse mx-5 xl:-mt-16' >
 
-      <div className='flex justify-center flex-col text-center items-center overflow-hidden '>
+      <div className='flex justify-center flex-col text-center items-center overflow-hidden relative '>
       <motion.div
-         initial={{y:250,opacity:0}}
-         whileInView={{y:0,opacity:1,transition:{duration:1}}}
-         viewport={{ once: true }}
+      className='z-10'
+         variants={{
+          hidden:{opacity:0,y:75},
+          visible:{opacity:1,y:0},
+         }}
+         initial="hidden"
+         animate="visible"
+         transition={{duration:0.5, delay:0.25}}
         > 
       <Heading text="Welcome to IE-E&C" subtext=" We are the official Electroniczs and Communication sclub of Manipal.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni modi repellat illum deleniti consectetur ex obcaecati ipsum repudiandae commodi molestiae sapiente aliquam praesentium fugiat impedit vitae, enim minus eveniet accusantium." /> 
       
@@ -42,6 +47,7 @@ function Hero() {
       </motion.div>
       </div>
       <motion.div
+       className='z-10'
          initial={{x:250,opacity:0}}
          whileInView={{x:0,opacity:1,transition:{duration:1}}}
          viewport={{ once: true }}
