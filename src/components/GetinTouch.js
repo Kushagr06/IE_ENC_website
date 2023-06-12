@@ -6,7 +6,7 @@ import Wave from 'react-wavify'
 
 function GetinTouch() {
   return (
-    <div id="GetinTouch">
+    <div id="GetinTouch" className='mb-16'>
     <div className='mx-5'>
       <Heading text="Get in Touch" subtext=" Here are a few links to help you get in touch with us :)" /> 
     </div>
