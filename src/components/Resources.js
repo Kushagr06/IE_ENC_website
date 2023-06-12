@@ -34,26 +34,42 @@ function Resources() {
       </div>
     </div>
 
-    <div className='text-center items-center flex justify-around mx-10 text-highlight font-medium'>
+    <div className='text-center items-center flex justify-around -mx-2 text-highlight font-medium text-[2.5vh]'>
 
     <div>
-    <div>
+
+    <div className='hover:underline'>
+    <a href="/">
     Collaborators
+    </a>
     </div>
-    <div>
+   
+    <div className='hover:underline'>
+    <a href="/">
     Club Policies
+    </a>
     </div>
+   
     </div>
 
     <div>
-    <div>
+      <div className='hover:underline'>
+    <a href="/">
     Tech Tatva
-    </div>
-    <div>
-    Contact Details
-    </div>
+    </a>
     </div>
 
+    <div className='hover:underline'>
+    <a href="/">
+    Contact Details
+    </a>
+    </div>
+   
+    </div>
+
+    </div>
+    <div className='text-center text-secondary text-lg font-medium mt-16'>
+     Website made inHouse at IE-EnC  <br />
     </div>
     </div>
   )
