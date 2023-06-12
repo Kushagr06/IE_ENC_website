@@ -22,10 +22,15 @@ function EventCards() {
  {data?data.map((info)=>(       
     
      <div className='container w-[24rem] h-64 bg-secondary rounded-2xl border-4 border-primary sm:scale-100 scale-75 sm:m-5 -ml-10'> 
-     <div className='flex flex-row'>
+     <div className='flex flex-row justify-center'>
+     <div className='top-0 left-0 w-[60px] h-[60px] bg-primary rounded-full ml-2 text-textcol font-semibold  overflow-auto text-center align-middle mt-2 text-lg  '>
+        Oct
+        <br/>
+        21
+      </div>
       {/* pic */}
-      <div className='top-0 left-0 w-[21rem] h-44 bg-black rounded-2xl ml-2 mt-2 mr-2 border-2 border-highlight z-10 overflow-hidden object-center'>
-      <img src={info.picture.large} alt="Profile Pic" className='w-auto bg-cover max-w-full'/>
+      <div className='top-0 left-0 w-44 h-44 bg-black rounded-full ml-2 mt-2 mr-2 border-2 border-highlight z-10 overflow-hidden object-center relative'>
+      <img src={info.picture.large} alt="Profile Pic" className='w-auto bg-cover max-w-full absolute top-[0%] left-[0%]'/>
       </div>
         <div className='flex flex-col'>
           <button>
@@ -41,13 +46,9 @@ function EventCards() {
       </div>
       </div>
       <div className='flex flex-row'>
-      <div className='top-0 left-0 w-12 h-12 bg-primary rounded-full ml-2 mt-2 text-textcol font-semibold  overflow-auto text-center text-sm p-1 '>
-        Oct
-        <br/>
-        21
-      </div>
+      
       {/* name&description */}
-      <div className='top-0 left-0 w-[21rem] h-12 bg-primary rounded-2xl ml-2 mt-2 text-highlight font-custom font-semibold text-lg overflow-auto text-center '>
+      <div className='top-0 left-0 w-[21rem] h-12 bg-primary rounded-2xl ml-2 mt-2 text-highlight font-custom font-semibold text-lg overflow-auto text-center flex justify-center '>
         Event Name:
         <span className='text-secondary font-regular'> A small description</span>
       </div>
