@@ -26,7 +26,7 @@ function Resources() {
             <div className='text-[2.5vh] font-medium rounded-2xl p-1 border-2 border-secondary text-center'>
             Location
             </div>
-            <div className='text-[5vh] font-bold'>
+            <div className='text-[5vh] font-bold text-center'>
               Manipal, Karnataka
             </div>
           </div>
