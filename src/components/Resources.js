@@ -1,6 +1,7 @@
 import React from 'react'
 import Heading from './Heading';
 import Heart from '../assets/heart.svg'
+import {motion} from 'framer-motion';
 
 
 function Resources() {
@@ -9,7 +10,11 @@ function Resources() {
     <div className='mx-5'>
       <Heading text="Resources" subtext=" Here we have a few resources you guys will find useful." /> 
     </div>
-
+    <motion.div
+         initial={{opacity:0}}
+         whileInView={{opacity:1,transition:{duration:1}}}
+         viewport={{ once: true }}
+        > 
     <div className='flex justify-center mt-20'>
 
       <div className='w-[75%] m-10 p-20 h-auto bg-primary rounded-2xl border-4 border-secondary align-middle flex justify-around text-[2.5vh] text-secondary md:flex-row flex-col font-medium relative ' >
@@ -73,6 +78,7 @@ function Resources() {
       <span className='flex justify-center'><img src={Heart} alt="<3" /></span>
      Website made inHouse at IE-EnC  <br />
     </div>
+    </motion.div>
     </div>
   )
 }

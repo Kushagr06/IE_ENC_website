@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Switch from "react-switch";
 import BoardCard from "./BoardCard";
+import {motion} from 'framer-motion';
 
 export default class Board extends Component {
   constructor() {
@@ -28,9 +29,14 @@ export default class Board extends Component {
 
         <Switch className="mb-[1.5vh]" onChange={this.handleChange} checked={this.state.checked} offColor="#4F518C" onColor="#4F518C" offHandleColor="#DABFFF" onHandleColor="#77DDEE" uncheckedIcon="" checkedIcon=""/>
         {this.state.checked?
-        <div>
+         <motion.div
+         initial={{y:250,opacity:0}}
+         whileInView={{y:0,opacity:1,transition:{duration:1}}}
+         viewport={{ once: true }}
+        > 
           <BoardCard />
-        </div>:""}
+          </motion.div>
+        :""}
      
       </div>
     );

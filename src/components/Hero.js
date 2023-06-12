@@ -4,6 +4,7 @@ import Banner from './Banner';
 import Heading from './Heading';
 import Wave from 'react-wavify'
 import {Link} from 'react-scroll';
+import {motion} from 'framer-motion';
 
 
 
@@ -22,8 +23,13 @@ function Hero() {
     <div className='flex xl:flex-row flex-col-reverse mx-5 xl:-mt-16' >
 
       <div className='flex justify-center flex-col text-center items-center overflow-hidden '>
-
+      <motion.div
+         initial={{y:250,opacity:0}}
+         whileInView={{y:0,opacity:1,transition:{duration:1}}}
+         viewport={{ once: true }}
+        > 
       <Heading text="Welcome to IE-E&C" subtext=" We are the official Electroniczs and Communication sclub of Manipal.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni modi repellat illum deleniti consectetur ex obcaecati ipsum repudiandae commodi molestiae sapiente aliquam praesentium fugiat impedit vitae, enim minus eveniet accusantium." /> 
+      
 
       <button className='border-2 border-highlight px-8 py-3 rounded-xl text-highlight
       hover:text-secondary hover:bg-highlight duration-200 hover:scale-110 hover:mx-2 font-semibold mt-5 fill-highlight hover:fill-secondary z-10'> 
@@ -33,10 +39,17 @@ function Hero() {
       Check Out Upcoming Events
       </Link>
       </button>
+      </motion.div>
       </div>
+      <motion.div
+         initial={{x:250,opacity:0}}
+         whileInView={{x:0,opacity:1,transition:{duration:1}}}
+         viewport={{ once: true }}
+        > 
     <div className='flex justify-center sm:-mt-10 sm:scale-[.85] scale-[0.5] -mt-[28vh] sm:-mb-[10vh] -mb-[29.5vh] z-10'>
       <Banner bannercolor={rectColor}  />
       </div>
+      </motion.div>
     </div>
     <div className=' xl:-mt-[13rem] -mt-10 opacity-[.50]'>
       <Wave

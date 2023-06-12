@@ -2,6 +2,7 @@ import React, { Component }  from 'react'
 import Heading from './Heading';
 import Switch from "react-switch";
 import Pyramid from './Pyramid';
+import {motion} from 'framer-motion';
 
 
 export default class WhatWeDo extends Component {
@@ -38,9 +39,15 @@ export default class WhatWeDo extends Component {
 
         <Switch className="mb-[2vh]" onChange={this.handleChange} checked={this.state.checked} offColor="#4F518C" onColor="#4F518C" offHandleColor="#DABFFF" onHandleColor="#77DDEE" uncheckedIcon="" checkedIcon=""/>
         {this.state.checked?
-        <div>
+         <motion.div
+         initial={{y:250,opacity:0}}
+         whileInView={{y:0,opacity:1,transition:{duration:1}}}
+         viewport={{ once: true }}
+        > 
           <h1>Show Pictures</h1>
-        </div>:""}
+        </motion.div>
+
+        :""}
     </div>
   )
         }
