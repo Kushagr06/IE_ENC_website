@@ -13,6 +13,12 @@
   animation: borderColor infinite 1s;
 }
 
+#nav-item .active{
+padding-bottom:12px;
+border-bottom: 3px solid #77DDEE;
+transition-duration:500ms;
+}
+
 @keyframes borderColor{
 50% {border-color:#77DDEE;}
 }
