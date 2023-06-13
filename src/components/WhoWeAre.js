@@ -17,10 +17,17 @@ function WhoWeAre() {
          whileInView={{x:0,opacity:1,transition:{duration:1}}}
          viewport={{ once: true }}
         > 
-      <div className='font-headingFont text-highlight md:text-[4vh] text-[3vh] flex justify-center items-center'>
-        12 BOARD MEMBERS <br/><br/>
-        70 MANAGEMENT COMMITTEE MEMBERS <br/><br/>
-        80 WORKING COMMITTEE MEMBERS <br/><br/>
+      <div className='font-headingFont text-highlight md:text-[4vh] text-[3vh] flex justify-center items-center flex-row relative'>
+        <div>
+        <svg width="100px" height="100px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#77DDEE" d="M16 4v-3h-16v3h1.7l7.7 9.5c1.3 1.6 3.1 2.5 5 2.5h1.6v-3h-1.5c-1 0-1.9-0.5-2.7-1.4l-1.3-1.6h5.5v-3h-8l-2.4-3h10.4z"></path> </g></svg>
+        </div>
+
+        <div>
+        BOARD  <br/>
+        MANAGEMENT COMMITTEE  <br/>
+        WORKING COMMITTEE  <br/>
+        </div>
+       
       </div>
       </motion.div>
       <div>
