@@ -2,6 +2,8 @@ import React from 'react'
 import Heading from './Heading';
 import Heart from '../assets/heart.svg'
 import {motion} from 'framer-motion';
+import Wave from 'react-wavify';
+
 
 
 function Resources() {
@@ -37,7 +39,9 @@ function Resources() {
             </div>
           </div>
 
+          
       </div>
+      
     </div>
 
     <div className='text-center items-center flex justify-around -mx-2 text-highlight font-medium text-[2.5vh]'>
@@ -75,7 +79,7 @@ function Resources() {
 
     </div>
     <div className='text-center items-center align-middle text-secondary text-lg font-medium mt-16'>
-      <span className='flex justify-center'><img src={Heart} alt="<3" /></span>
+      <span className='flex justify-center'><img src={Heart} alt="<3"/></span>
      Website made inHouse at IE-EnC  <br />
     </div>
     </motion.div>
