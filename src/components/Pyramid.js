@@ -11,7 +11,7 @@ function Pyramid() {
      
       
       <img src={Tri} alt="triangle" id="tri" className='scale-75'/>
-      <img src={Ring} alt="ring" id="ring" />
+      <img src={Ring} alt="ring" id="ring"  />
          
     </div>
   )

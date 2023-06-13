@@ -30,7 +30,10 @@ transition-duration:500ms;
   position: absolute;
   top:0;
   left:0;
-}   
+}  
+#ring:hover {
+    animation-play-state: paused;
+  } 
 
 
 @keyframes spin {
