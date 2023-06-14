@@ -19,8 +19,8 @@ function Hero() {
     }
 });
   return (
-    <div id="hero" className='w-auto h-screen'>
-    <div className='flex xl:flex-row flex-col-reverse mx-5 xl:-mt-16' >
+    <div id="hero" className='w-auto'>
+    <div className='flex xl:flex-row flex-col-reverse mx-5 xl:-mt-12' >
 
       <div className='flex justify-center flex-col text-center items-center overflow-hidden relative '>
       <motion.div
