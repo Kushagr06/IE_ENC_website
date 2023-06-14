@@ -1,7 +1,7 @@
 import React from 'react';
 import Heading from './Heading';
 import '../App.css';
-import Wave from 'react-wavify';
+// import Wave from 'react-wavify';
 import {motion} from 'framer-motion'
 
 
