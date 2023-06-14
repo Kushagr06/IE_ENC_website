@@ -33,7 +33,7 @@ function Hero() {
          animate="visible"
          transition={{duration:0.5, delay:0.25}}
         > 
-      <Heading text="Welcome to IE-E&C" subtext="the official Electronics and Communication Student Club of Manipal Institute of Technology, Manipal! Established in 2011, we take great pride in being the hub for all things electronics and communication-related on campus. Whether you're a passionate tech enthusiast, a budding engineer, or simply interested in exploring the exciting world of electronics, you've come to the right place." /> 
+      <Heading text="Welcome to IE-E&C" subtext="The Official Electronics and Communication Student Club of Manipal Institute of Technology, Manipal! Established in 2011, we take great pride in being the hub for all things electronics and communication-related on campus. Whether you're a passionate tech enthusiast, a budding engineer, or simply interested in exploring the exciting world of electronics, you've come to the right place." /> 
       
 
       <button className='border-2 border-highlight px-8 py-3 rounded-xl text-highlight

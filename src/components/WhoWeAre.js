@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from './Heading';
-import Group from '../assets/group_photo.png'
+import Group from '../assets/group_2.png'
 import '../App.css'
 import Board from './Board';
 import {motion} from 'framer-motion';
@@ -9,7 +9,7 @@ function WhoWeAre() {
   return (
     <div className=' mb-16' id="WhoWeAre">
     <div className='mx-5'>
-      <Heading text="Who We Are" subtext=" We are a dedicated team of students from various branches and years who are passionate about all things technology and we work tirelessly to ensure that every member has an enriching and enjoyable tenure in the club. As a member of IE-E&C, you'll have access to a wide range of opportunities to expand your horizons. From technical workshops and guest lectures by industry experts to hands-on projects and competitions, there's something for everyone. We believe in learning by doing, and our club provides ample opportunities to apply your theoretical knowledge in real-world scenarios." /> 
+      <Heading text="Who We Are" subtext=" We are a dedicated team of students from various branches and batches, passionate about all things technology and we work tirelessly to ensure that every member has an enriching and enjoyable tenure in our club. As a member of IE-E&C, you'll have access to a wide range of opportunities to expand your horizons. From technical workshops and guest lectures by industry experts to hands-on projects and competitions, there's something for everyone. We believe in learning by doing, and our club provides ample opportunities to apply your theoretical knowledge in real-world scenarios." /> 
     </div>
     <div className='flex xl:flex-row flex-col-reverse mx-10 my-5 justify-around'>
     <motion.div
@@ -36,12 +36,13 @@ function WhoWeAre() {
          whileInView={{x:0,opacity:1,transition:{duration:1}}}
          viewport={{ once: true }}
         > 
-       <img src={Group} alt="group_photo" id="groupImg" className='w-auto md:h-[40vh] h-[22vh] m-2 border-8 border-secondary mb-4'/>
+       <img src={Group} alt="group_photo" id="groupImg" className='w-auto md:h-[40vh] h-[20vh] m-2 border-8 border-secondary mb-4'/>
        </motion.div>
       </div>     
     </div>
     <div className=' text-[2.5vh] tracking-widest font-custom font-semibold m-2 ml-5'>
-                    Checkout the Board Members 
+      
+                    
                       </div>
     <Board />
     </div>

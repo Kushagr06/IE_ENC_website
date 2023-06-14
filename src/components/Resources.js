@@ -50,7 +50,7 @@ function Resources() {
 
      <div className='hover:underline'>
     <a href={Constitution} download="Constitution">
-    Club Policies
+    Our Constitution.
     </a>
     </div>
    {/*
@@ -80,7 +80,7 @@ function Resources() {
     </div>
     <div className='text-center items-center align-middle text-secondary text-lg font-medium mt-16'>
       <span className='flex justify-center'><img src={Heart} alt="<3"/></span>
-     Website made inHouse at IE-EnC  <br />
+     Website made and maintained by IE-E&C, Manipal.  <br />
     </div>
     </motion.div>
     </div>
