@@ -9,7 +9,7 @@ function WhoWeAre() {
   return (
     <div className=' mb-16' id="WhoWeAre">
     <div className='mx-5'>
-      <Heading text="Who We Are" subtext=" We are the official Electroniczs and Communication sclub of Manipal.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni modi repellat illum deleniti consectetur ex obcaecati ipsum repudiandae commodi molestiae sapiente aliquam praesentium fugiat impedit vitae, enim minus eveniet accusantium." /> 
+      <Heading text="Who We Are" subtext=" We are a dedicated team of students from various branches and years who are passionate about all things technology and we work tirelessly to ensure that every member has an enriching and enjoyable tenure in the club. As a member of IE-E&C, you'll have access to a wide range of opportunities to expand your horizons. From technical workshops and guest lectures by industry experts to hands-on projects and competitions, there's something for everyone. We believe in learning by doing, and our club provides ample opportunities to apply your theoretical knowledge in real-world scenarios." /> 
     </div>
     <div className='flex xl:flex-row flex-col-reverse mx-10 my-5 justify-around'>
     <motion.div

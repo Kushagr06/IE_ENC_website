@@ -20,13 +20,13 @@ export default class WhatWeDo extends Component {
   return (
     <div className='mb-16' id="WhatWeDo">
       <div className='mx-5'>
-      <Heading text="What We Do" subtext="We are the official Electroniczs and Communication sclub of Manipal.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni modi repellat illum deleniti consectetur ex obcaecati ipsum repudiandae commodi molestiae sapiente aliquam praesentium fugiat impedit vitae, enim minus eveniet accusantium." /> 
+      <Heading text="What We Do" subtext="At IE-E&C, our mission is to foster a vibrant community of students who share a common love for electronics and related fields. We provide a platform for students to connect, collaborate, and engage in various activities and events that not only enhance their technical knowledge but also help them grow personally and professionally. We also host events such as hackathons, competitions, and guest lectures from industry professionals, some even in collaboration with other clubs or organisations, through which you get to gain both, experience in management as well as technical knowledge." /> 
     </div>
     <div className='flex justify-center'>
       <Pyramid />
     </div>
     <div className=' text-[2.5vh] tracking-widest font-custom font-semibold m-2 ml-5'>
-                    Checkout the Pictures from the latest club activities. 
+                    Checkout some pictures from the latest club activities. 
                       </div>
     <label>
       <div className="text-[4.5vh] font-custom px-5 font-semibold inline-flex ml-[5vh] mt-10">

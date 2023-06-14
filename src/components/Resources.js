@@ -2,6 +2,7 @@ import React from 'react'
 import Heading from './Heading';
 import Heart from '../assets/heart.svg'
 import {motion} from 'framer-motion';
+import Constitution from '../assets/Constitution.pdf';
 
 
 
@@ -48,7 +49,7 @@ function Resources() {
     <div>
 
      <div className='hover:underline'>
-    <a href="/">
+    <a href={Constitution} download="Constitution">
     Club Policies
     </a>
     </div>
