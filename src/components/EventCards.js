@@ -21,7 +21,7 @@ function EventCards() {
       
  {data?data.map((info)=>(       
     
-     <div className='container w-[24rem] h-64 bg-secondary rounded-2xl border-4 border-primary sm:scale-100 scale-75 sm:m-5 -ml-10'> 
+     <div className='container w-[24rem] h-64 bg-secondary rounded-2xl border-4 border-primary sm:scale-100 scale-[0.85] sm:m-5 '> 
      <div className='flex flex-row justify-center'>
      <div className='top-0 left-0 w-[60px] h-[60px] bg-primary rounded-full ml-2 text-textcol font-semibold  overflow-auto text-center align-middle mt-2 text-lg  '>
         Oct

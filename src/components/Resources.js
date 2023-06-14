@@ -2,7 +2,6 @@ import React from 'react'
 import Heading from './Heading';
 import Heart from '../assets/heart.svg'
 import {motion} from 'framer-motion';
-import Wave from 'react-wavify';
 
 
 
@@ -17,7 +16,7 @@ function Resources() {
          whileInView={{opacity:1,transition:{duration:1}}}
          viewport={{ once: true }}
         > 
-    <div className='flex justify-center mt-20'>
+    <div className='flex justify-center mt-12'>
 
       <div className='w-[75%] m-10 p-20 h-auto bg-primary rounded-2xl border-4 border-secondary align-middle flex justify-around text-[2.5vh] text-secondary md:flex-row flex-col font-medium relative ' >
 
@@ -48,12 +47,12 @@ function Resources() {
 
     <div>
 
-    <div className='hover:underline'>
+     <div className='hover:underline'>
     <a href="/">
-    Collaborators
+    Club Policies
     </a>
     </div>
-   
+   {/*
     <div className='hover:underline'>
     <a href="/">
     Club Policies
@@ -73,7 +72,7 @@ function Resources() {
     <a href="/">
     Contact Details
     </a>
-    </div>
+    </div> */}
    
     </div>
 
