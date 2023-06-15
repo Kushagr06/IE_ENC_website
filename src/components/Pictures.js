@@ -18,7 +18,7 @@ function Pictures() {
     <div className='flex-row justify-center overflow-auto flex-wrap inline-flex'>
       {data.map((info)=>(
       
-        <img src={`https://drive.google.com/uc?export=view&id=`+info.pic} alt={info.id}  id="groupImg" className='w-auto md:h-[50vh] h-[25vh] m-2 border-8 border-secondary mb-4' />
+        <img src={`https://drive.google.com/uc?export=view&id=`+info.pic} alt={info.id} key={info.id} id="groupImg" className='w-auto md:h-[50vh] h-[25vh] m-2 border-8 border-secondary mb-4' />
       ))}
     </div>
   )

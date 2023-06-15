@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function BoardCard() {
   // https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/board
-  const baseURL=`https://randomuser.me/api/?results=12`
+  const baseURL=`https://randomuser.me/api/?results=11`
   const [data, setData] = React.useState([]);
 
   React.useEffect(() => {

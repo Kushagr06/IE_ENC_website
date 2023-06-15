@@ -1,0 +1,102 @@
+[
+	{
+		"id":1,
+		"name":"Sarayu Marni",
+		"pic":"",
+		"positon":"President",
+		"linkedIn":"",
+		"instagram":"",
+		"email":""
+	},
+	{
+		"id":2,
+		"name":"Aditi Kulkarni",
+		"pic":"",
+		"positon":"Vice President",
+		"linkedIn":"",
+		"instagram":"",
+		"email":""
+	},
+	{
+		"id":3,
+		"name":"Shwetabh Saxena",
+		"pic":"",
+		"positon":"General Secretary",
+		"linkedIn":"",
+		"instagram":"",
+		"email":""
+	},
+	{
+		"id":4,
+		"name":"G Vamsi Krishna",
+		"pic":"",
+		"positon":"Treasurer",
+		"linkedIn":"",
+		"instagram":"",
+		"email":""
+	},
+	{
+		"id":5,
+		"name":"Advika Singh",
+		"pic":"",
+		"positon":"Technical Head",
+		"linkedIn":"https://www.linkedin.com/in/advikasingh",
+		"instagram":"https://instagram.com/advika__07?igshid=MzNlNGNkZWQ4Mg==",
+		"email":"adsingh2907@gmail.com"
+	},
+	{
+		"id":6,
+		"name":"Deepshika Borundiya",
+		"pic":"",
+		"positon":"Technical Head",
+		"linkedIn":"https://www.linkedin.com/in/deepshika-borundiya-21a548250/",
+		"instagram":"",
+		"email":"deepshikajain1411@gmail.com"
+	},
+	{
+		"id":7,
+		"name":"Trisha Jaipuriar",
+		"pic":"",
+		"positon":"HR and Social Media Head",
+		"linkedIn":"https://www.linkedin.com/in/trisha-jaipuriar-82877b217",
+		"instagram":"https://instagram.com/msdian_trisha?igshid=MzRlODBiNWFlZA==",
+		"email":"trishajaipuriark32002@gmail.com"
+	},
+	{
+		"id":8,
+		"name":"Kushagr Narayan",
+		"pic":"https://drive.google.com/file/d/1WRWLSe3cqBbcVFJE2xfSR-OkkmBe6-n_/view?usp=sharing",
+		"positon":"PR and Management Head",
+		"linkedIn":"https://www.linkedin.com/in/kushagr-narayan/",
+		"instagram":"https://instagram.com/_narayan._?igshid=NGExMmI2YTkyZg==",
+		"email":"nkushagr@gmail.com"
+	},
+	{
+		"id":9,
+		"name":"Sathwik Merla",
+		"pic":"",
+		"positon":"Operations Head",
+		"linkedIn":"",
+		"instagram":"",
+		"email":""
+	},
+	{
+		"id":10,
+		"name":"Arpit Baj",
+		"pic":"",
+		"positon":"Operations Head",
+		"linkedIn":"",
+		"instagram":"",
+		"email":""
+	},
+	{
+		"id":11,
+		"name":"Daiyaan Mohamed Al Altaf",
+		"pic":"",
+		"positon":"Database Head",
+		"linkedIn":"https://www.linkedin.com/in/daiyaan-mohamed-47943a204",
+		"instagram":"https://instagram.com/daiyaaaaaan._?igshid=MzNlNGNkZWQ4Mg==",
+		"email":"daiyaan409@gmail.com"
+	}
+
+]
