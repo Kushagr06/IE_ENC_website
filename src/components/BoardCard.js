@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 function BoardCard() {
+  // https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/board
   const baseURL=`https://randomuser.me/api/?results=12`
   const [data, setData] = React.useState([]);
 
