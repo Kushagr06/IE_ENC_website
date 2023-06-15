@@ -3,6 +3,7 @@ import Heading from './Heading';
 import Switch from "react-switch";
 import Pyramid from './Pyramid';
 import {motion} from 'framer-motion';
+import Pictures from './Pictures';
 
 
 export default class WhatWeDo extends Component {
@@ -44,7 +45,7 @@ export default class WhatWeDo extends Component {
          whileInView={{y:0,opacity:1,transition:{duration:1}}}
          viewport={{ once: true }}
         > 
-          <h1>Show Pictures</h1>
+          <Pictures/>
         </motion.div>
 
         :""}
