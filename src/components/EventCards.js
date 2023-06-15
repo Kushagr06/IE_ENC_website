@@ -5,12 +5,12 @@ import NoEvent from '../assets/noEvents.svg'
 
 function EventCards() {
 
-  const baseURL=`https://randomuser.me/api/?results=12`
+  const baseURL=`https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/events`
   const [data, setData] = React.useState(null);
 
   React.useEffect(() => {
     axios.get(baseURL).then((response) => {
-      setData(response.data.results);
+      setData(response.data);
     });
   }, []);
 
@@ -19,7 +19,7 @@ function EventCards() {
     
     <div className='flex justify-center md:flex-row flex-col flex-wrap items-center align-middle m-2'>
       
- {data?data.map((info)=>(       
+ {data===""?data.map((info)=>(       
     
      <div className='container w-[24rem] h-64 bg-secondary rounded-2xl border-4 border-primary sm:scale-100 scale-[0.85] sm:m-5 '> 
      <div className='flex flex-row justify-center'>
@@ -58,7 +58,7 @@ function EventCards() {
  )):
  <div className='flex justify-center flex-col'>
  <img src={NoEvent} alt="Checkback soon for more Events :)" />
- <div className=' text-xl font-headingFont text-highlight -mt-8'>
+ <div className=' text-xl font-headingFont text-highlight -mt-8 text-center'>
     Checkback Later for Upcoming Events!!
  </div>
  </div>
