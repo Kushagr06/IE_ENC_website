@@ -37,7 +37,7 @@ function EventCards() {
     
    </div>
    {/* pic */}
-   <div className='top-0 left-0 w-44 h-44 bg-black rounded-full ml-2 mt-2 mr-2 border-2 border-highlight z-10 overflow-hidden object-center relative'>
+   <div className='top-0 left-0 w-44 h-44 bg-primary rounded-full ml-2 mt-2 mr-2 border-2 border-highlight z-10 overflow-hidden object-center relative'>
    <img src={`https://drive.google.com/uc?export=view&id=`+data.image} alt="Pic" className='w-auto bg-cover max-w-full absolute top-[0%] left-[0%]'/>
 
    </div>
