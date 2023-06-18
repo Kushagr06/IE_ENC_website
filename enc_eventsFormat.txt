@@ -1,7 +1,7 @@
 [	
 	{
 	"id": 1,
-	"date": "28 Oct",
+	"date": "28Oct",
 	"image":"googleDriveKey",
 	"instaLink":"Link",
 	"formLink":"link",
@@ -9,3 +9,5 @@
 	"description":"description"
 	}
 ]
+
+
