@@ -20,15 +20,15 @@ function BoardCard() {
     {data.map((info)=>(
       <div className=' flex sm:m-4  md:m-2 -mx-[w/2] font-custom justify-center sm:scale-100 scale-[0.85]' key={info.id}>
         {/* picture */}
-          <div className='rounded-full h-32 w-32 bg-primary border-2 border-highlight -mr-16 z-10 overflow-hidden object-center relative'>
+          <div className='rounded-full h-32 w-32 bg-primary border-2 border-primary -mr-16 z-10 overflow-hidden object-center relative'>
             <img src={`https://drive.google.com/uc?export=view&id=`+info.pic} alt=" " className='w-auto bg-cover max-w-full absolute top-2 left-0 h-auto scale-[1.15]'/>
           </div>
           {/* card */}
-          <div className='rounded-2xl sm:mb-4 w-64 h-80 bg-secondary border-4 border-primary'>
+          <div className='rounded-2xl sm:mb-4 w-64 h-80 bg-secondary border-2 border-primary'>
           <div className='ml-20 mt-10 text-xl font-bold text-textcol tracking-widest w-auto h-14 '>
           {info.name}
           </div>
-          <div className='text-lg ml-5 mr-2 mt-10 font-bold text-secondary border-2 rounded-xl border-highlight p-4 bg-primary tracking-tight relative'>
+          <div className='text-lg ml-5 mr-2 mt-10 font-bold text-secondary  rounded-xl p-4 bg-primary tracking-tight relative '>
             {info.position}
           </div>
 
