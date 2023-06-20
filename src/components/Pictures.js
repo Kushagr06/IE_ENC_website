@@ -12,6 +12,7 @@ function Pictures() {
       setData(response.data);
     });
   }, []);
+  data.sort((a,b)=>a.id-b.id)
 
   if(!data) return null
   return (

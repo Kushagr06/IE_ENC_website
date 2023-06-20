@@ -23,16 +23,16 @@
 		"position": "General Secretary",
 		"linkedIn": "https://www.linkedin.com/in/shwetabh-saxena-37034819a",
 		"instagram": "https://instagram.com/theshwetabhsaxena?igshid=NGExMmI2YTkyZg==",
-		"email": "shwetabh.saxena@learner.manipal.edu"
+		"email": "Shwetabh.saxena@learner.manipal.edu"
 	},
 	{
 		"id": 4,
 		"name": "G Vamsi Krishna",
-		"pic": "",
+		"pic": "14jt_Wf1j5FpY-3L_NLDYKWTjaS05YFjc",
 		"position": "Treasurer",
-		"linkedIn": "",
-		"instagram": "",
-		"email": ""
+		"linkedIn": "https://www.linkedin.com/mwlite/in/vamsi-gannamani-4717a9220",
+		"instagram": "https://instagram.com/vamsi.krish1501?igshid=MmIzYWVlNDQ5Yg==",
+		"email": "vamsi.krish1501@gmail.com"
 	},
 	{
 		"id": 5,
@@ -73,11 +73,11 @@
 	{
 		"id": 9,
 		"name": "Sathwik Merla",
-		"pic": "",
+		"pic": "1rdHsPcXJJeTvL9citVBS5CWgaX8JcjzX",
 		"position": "Operations Head",
-		"linkedIn": "",
-		"instagram": "",
-		"email": ""
+		"linkedIn": "https://www.linkedin.com/in/sathwik-merla-79279b1b6/",
+		"instagram": "/",
+		"email": "Sathwiktinku3232@gmail.com"
 	},
 	{
 		"id": 10,
