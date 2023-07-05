@@ -1,9 +1,23 @@
-# Getting Started with Create React App
 
-IE-E&C, The Manipal Chapter
-## Who We Are:
+# IE-E&C, The Manipal Chapter's Website
 
-The Official Electronics and Communication Student Club of Manipal Institute of Technology, Manipal! Established in 2011, we take great pride in being the hub for all things electronics and communication-related on campus. Whether you're a passionate tech enthusiast, a budding engineer, or simply interested in exploring the exciting world of electronics, you've come to the right place."
+IE-E&C is the  official electronics club of Manipal Institute of Technology.
+This is the repository of the website that has been created inhouse, by its board members(2022-23) to serve and aid the club in its functioning.
+The website has been created using ReactJs, TailwindCss and uses MongoDb as its database.
 
-### Website by Kushagr Narayan
+### [IE-E&C, the official website](https://ieenc.vercel.app/)
+## Credits:
+
+ - [Kushagr Narayan- Lead Designer and Developer](https://www.linkedin.com/in/kushagr-narayan/)
+ - [Sarayu Marni- Editing, Crosschecking, Providing Information. ](https://www.linkedin.com/in/sarayu-marni/)
+ - [Deepshika Borundiya -Support, Graphics](https://www.linkedin.com/in/deepshika-borundiya-21a548250/)
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
