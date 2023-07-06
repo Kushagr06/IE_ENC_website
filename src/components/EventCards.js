@@ -35,7 +35,7 @@ function EventCards() {
 
      {/* Date */}
      <div className=' p-0 mx-0 my-auto font-headingFont font-light align-middle'>
-    <div className=' text-[4vh] -rotate-90 '>
+    <div className=' text-[4vh] -rotate-90 text-highlight '>
     {data.date}
     </div>
    </div>
@@ -72,8 +72,10 @@ function EventCards() {
    <div className='flex flex-row'>
    
    {/* name&description */}
-   <div className='top-0 left-0 w-[21rem] h-auto bg-primary rounded-2xl ml-2 mt-2 text-highlight font-custom font-semibold text-lg overflow-auto text-center flex justify-center mb-2 '>
-     {data.name}:
+   <div className='top-0 left-0 w-[21rem] h-auto bg-primary rounded-2xl ml-2 mt-2 py-1 text-highlight font-custom font-semibold text-lg overflow-auto text-center flex justify-center mb-2 px-2 '>
+    <span className=' font-semibold tracking-wide'>
+     {data.name}&nbsp;
+     </span>
      <span className='text-secondary font-regular'>&nbsp;{data.description}</span>
    </div>
    </div>

@@ -12,7 +12,7 @@ const prop=` w-full md:block md:w-auto ${toggle}`
 <nav  className="px-2 sm:px-4 fixed top-0 left-0 right-0 z-20 overflow-hidden md:bg-opacity-70 bg-background rounded-xl">
  <div className="container flex flex-wrap items-center justify-between mx-auto">
 
-   <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>
+   <Link to="hero" spy={true} smooth={true} offset={-50} duration={500}>
        <button>
        <img src={Logo} className=" w-auto h-20 sm:h-24 flex justify-center mx-5" alt="Logo" />
        </button>
