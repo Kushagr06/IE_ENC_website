@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios';
 import '../App.css'
 
-
+// Pictures Section between What We Do and Alumni Pictures
 function Pictures(props) {
   const baseURL=`https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/pics`
   const [data, setData] = React.useState([]);
