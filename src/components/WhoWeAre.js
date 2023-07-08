@@ -36,7 +36,7 @@ function WhoWeAre() {
          whileInView={{x:0,opacity:1,transition:{duration:1}}}
          viewport={{ once: true }}
         > 
-       <img src={Group} alt="group_photo" id="groupImg" className='w-auto md:h-[40vh] h-[20vh] m-2 border-8 border-secondary mb-4'/>
+       <img src={Group} alt="group_photo" id="groupImg" className='w-auto md:h-[40vh] h-[20vh] m-2 border-8 border-secondary mb-4 rounded-xl'/>
        </motion.div>
       </div>     
     </div>

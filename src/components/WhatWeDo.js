@@ -12,7 +12,7 @@ export default class WhatWeDo extends Component {
     this.state = { checked: false };
     this.handleChange = this.handleChange.bind(this);
   }
-
+ 
   handleChange(checked) {
     this.setState({ checked });
   }
@@ -45,7 +45,7 @@ export default class WhatWeDo extends Component {
          whileInView={{y:0,opacity:1,transition:{duration:1}}}
          viewport={{ once: true }}
         > 
-          <Pictures/>
+          <Pictures use="main"/>
         </motion.div>
 
         :""}
