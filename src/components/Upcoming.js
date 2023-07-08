@@ -8,7 +8,7 @@ function Upcoming() {
   return (
     <div className='mb-16' id="Upcoming">
       <div className='mx-5 mb-16'>
-      <Heading text="Upcoming" subtext="Here are the Upcoming Events for the season" /> 
+      <Heading text="Upcoming" subtext="Here are the Upcoming Events for the season! " /> 
     </div>
     <motion.div
          initial={{y:250,opacity:0}}
