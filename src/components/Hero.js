@@ -57,7 +57,7 @@ function Hero() {
       </div>
       </motion.div>
     </div>
-    <div className=' w-full xl:absolute xl:bottom-0 -mt-16 opacity-[0.75]'>
+    <div className=' w-full xl:absolute xl:bottom-0 -mt-14 opacity-[0.75]'>
       <Wave
       fill='#DABFFF'
       paused={false}
