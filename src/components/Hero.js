@@ -59,7 +59,7 @@ function Hero() {
     </div>
     <div className=' w-full xl:absolute xl:bottom-0 -mt-10 opacity-[1]'>
       <Wave
-      fill='#907AD6'
+      fill='#DABFFF'
       paused={false}
       options={{
         height:90,
