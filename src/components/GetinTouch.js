@@ -40,7 +40,7 @@ function GetinTouch() {
           </div>
           
             
-            {/* Linktree */}
+            {/* Mail */}
        
           <div className='container relative mx-10 my-2 bg-primary rounded-full overflow-hidden object-center items-center border-8 border-secondary  hover:border-highlight h-[40vh] w-[40vh]  duration-200  sm:scale-100 scale-[0.80]'>
           <a href="mailto:ieenc1718@gmail.com" target="_blank" rel="noreferrer">

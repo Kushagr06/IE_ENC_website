@@ -68,7 +68,7 @@ export default class Resources extends Component {
 
     <div>
 
-     <div className='hover:underline'>
+     <div className='hover:underline mb-20'>
     <a href={Constitution} download="Constitution">
     Our Constitution.
     </a>
