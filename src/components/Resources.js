@@ -30,7 +30,7 @@ export default class Resources extends Component {
   return (
     <div className='mb-20' id="Resources">
     <div className='mx-5'>
-      <Heading text="Resources" subtext=" Here we have a few resources you guys will find useful." /> 
+      <Heading text="Resources" subtext=" Here our some resources from our club and the gallery of our Alumni." /> 
     </div>
     <motion.div
          initial={{opacity:0}}

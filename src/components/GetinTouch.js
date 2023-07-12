@@ -10,7 +10,7 @@ function GetinTouch() {
   return (
     <div id="GetinTouch" className='mb-16'>
     <div className='mx-5'>
-      <Heading text="Get in Touch" subtext=" Here are a few links to help you get in touch with us :)" /> 
+      <Heading text="Get in Touch" subtext=" Here are our socials, Get in touch with us on..." /> 
     </div>
     <motion.div
          initial={{x:250,opacity:0}}
