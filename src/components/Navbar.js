@@ -27,35 +27,35 @@ const prop=` w-full md:block md:w-auto ${toggle}`
    <div className={prop} id="navbar-sticky">
      <ul className="flex flex-col md:flex-row md:space-x-10 md:text-sm md:font-light md:border-0 px-16 ">
      <li id="nav-item">
-         <Link to="WhoWeAre" spy={true} smooth={true} offset={70} duration={500} className=" md:text-lg block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
+         <Link to="WhoWeAre" spy={true} smooth={true} offset={-70} duration={500} className=" md:text-lg block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
            <button >
            Who We Are
            </button>
            </Link>
        </li>
        <li id="nav-item">
-         <Link to="WhatWeDo" spy={true} smooth={true} offset={70} duration={500} className=" md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
+         <Link to="WhatWeDo" spy={true} smooth={true} offset={-70} duration={500} className=" md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
            <button >
            What We Do
            </button>
            </Link>
        </li>
        <li id="nav-item">
-         <Link to="GetinTouch" spy={true} smooth={true} offset={70} duration={500} className="  md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
+         <Link to="GetinTouch" spy={true} smooth={true} offset={-70} duration={500} className="  md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
            <button >
            Get in Touch
            </button>
            </Link>
        </li>
        <li id="nav-item"> 
-         <Link to="Upcoming" spy={true} smooth={true} offset={70} duration={500} className=" md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
+         <Link to="Upcoming" spy={true} smooth={true} offset={-70} duration={500} className=" md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
            <button >
           Upcoming
            </button>
            </Link>
        </li>
        <li  id="nav-item">
-         <Link to="Resources" spy={true} smooth={true} offset={70} duration={500} className=" md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
+         <Link to="Resources" spy={true} smooth={true} offset={-70} duration={500} className=" md:text-lg  block py-2 pl-3 pr-4 text-highlight rounded md:hover:bg-transparent md:border-0 md:p-0">
            <button>
           Resources
            </button>

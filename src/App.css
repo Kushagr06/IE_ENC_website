@@ -14,9 +14,8 @@
 }
 
 #nav-item .active{
-padding-bottom:12px;
-border-bottom: 3px solid #77DDEE;
-transition-duration:500ms;
+color:#DABFFF;
+transition-duration:250ms;
 }
 
 @keyframes borderColor{

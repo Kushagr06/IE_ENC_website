@@ -30,7 +30,7 @@ export default class Resources extends Component {
   return (
     <div className='mb-20' id="Resources">
     <div className='mx-5'>
-      <Heading text="Resources" subtext=" Here we have a few resources you guys will find useful." /> 
+      <Heading text="Resources" subtext=" Here are some useful Resources from our club and a gallery of our alumni." /> 
     </div>
     <motion.div
          initial={{opacity:0}}
@@ -45,7 +45,7 @@ export default class Resources extends Component {
             <div className='text-[2.5vh] font-medium rounded-2xl p-1 border-2 border-secondary text-center'>
             Founded
             </div>
-            <div className='text-[5vh] font-bold'>
+            <div className='text-[4.5vh] font-bold'>
               2011
             </div>
           </div>
@@ -54,7 +54,7 @@ export default class Resources extends Component {
             <div className='text-[2.5vh] font-medium rounded-2xl p-1 border-2 border-secondary text-center'>
             Location
             </div>
-            <div className='text-[5vh] font-bold text-center'>
+            <div className='text-[4.5vh] font-bold text-center'>
               Manipal, Karnataka
             </div>
           </div>
@@ -77,6 +77,9 @@ export default class Resources extends Component {
     </div>
 
     <div className=' text-textcol '>
+    <div className=' md:text-[2.5vh] text-[2vh] tracking-widest font-custom font-semibold m-2 sm:ml-16'>
+                    Several Branches, One Root.
+                      </div>
     
     <label>
       <div className="text-[4.5vh] font-custom  font-semibold inline-block ml-[10vh] mt-10 px-2">
