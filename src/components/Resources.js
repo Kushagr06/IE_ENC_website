@@ -84,7 +84,7 @@ export default class Resources extends Component {
     </div>
 
     <div className=' text-textcol '>
-    <div className=' md:text-[2.5vh]  ml-10 text-[2vh] tracking-widest font-custom font-semibold m-2 sm:ml-16'>
+    <div className=' md:text-[2.5vh]  ml-10 text-[2vh] tracking-widest font-custom font-medium m-2 sm:ml-16'>
                     Several Branches, One Root.
                       </div>
     

@@ -48,8 +48,8 @@ function Hero() {
       </div>
       <motion.div
        className='z-10'
-         initial={{x:250,opacity:0}}
-         whileInView={{x:0,opacity:1,transition:{duration:1}}}
+         initial={{x:0,opacity:0}}
+         whileInView={{x:0,opacity:1,transition:{duration:2}}}
          viewport={{ once: true }}
         > 
     <div className='flex justify-center sm:-mt-10 sm:scale-[.85] scale-[0.5] -mt-[28vh] sm:-mb-[10vh] -mb-[29.5vh] z-10'>

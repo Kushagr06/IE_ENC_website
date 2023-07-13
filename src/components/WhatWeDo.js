@@ -28,8 +28,8 @@ export default class WhatWeDo extends Component {
     <div className='flex justify-center'>
       <Pyramid />
     </div>
-    <div className=' md:text-[2.5vh] text-[2vh] tracking-widest font-custom font-semibold m-2 ml-10 sm:ml-16'>
-                    Checkout some pictures from the latest club activities. 
+    <div className=' md:text-[2.5vh] text-[2vh] tracking-widest font-custom font-medium m-2 ml-10 sm:ml-16'>
+                    Checkout some pictures from the latest club activities! 
                       </div>
     <label>
       <div className="text-[4.5vh] font-custom  font-semibold inline-block ml-[10vh] mt-10 px-2">
