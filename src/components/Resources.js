@@ -69,15 +69,22 @@ export default class Resources extends Component {
     <div>
 
      <div className='hover:underline mb-20'>
+     <button className='border-2 border-highlight px-8 py-3 rounded-xl text-highlight
+      hover:text-secondary hover:bg-highlight duration-200 hover:scale-110 hover:mx-2 font-semibold mt-2 fill-highlight hover:fill-secondary z-10'> 
     <a href={Constitution} download="Constitution">
-    Our Constitution.
+    Our Constitution&nbsp;
+    <span className=' font-bold text-[2.8vh]'>
+    &#8595;
+    </span>
+    
     </a>
+    </button>
     </div>
     </div>
     </div>
 
     <div className=' text-textcol '>
-    <div className=' md:text-[2.5vh] text-[2vh] tracking-widest font-custom font-semibold m-2 sm:ml-16'>
+    <div className=' md:text-[2.5vh]  ml-10 text-[2vh] tracking-widest font-custom font-semibold m-2 sm:ml-16'>
                     Several Branches, One Root.
                       </div>
     
