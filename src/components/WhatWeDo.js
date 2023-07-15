@@ -6,6 +6,8 @@ import {motion} from 'framer-motion';
 import Pictures from './Pictures';
 
 
+
+
 export default class WhatWeDo extends Component {
   constructor() {
     super();
@@ -17,8 +19,11 @@ export default class WhatWeDo extends Component {
     this.setState({ checked });
   }
 
+ 
+
   render() {
   return (
+    
     <div className='mb-16' id="WhatWeDo">
       <div className='mx-5'>
       <Heading text="What We Do" subtext="Our mission is to foster a vibrant community of students who share a common love for electronics and related fields. We provide a platform for students to connect, collaborate, and engage in various activities and events that not only enhance their technical knowledge but also help them grow personally and professionally. We also host events such as hackathons, competitions, and guest lectures from industry professionals, some even in collaboration with other clubs or organisations, through which you get to gain both, experience in management as well as technical knowledge." /> 
