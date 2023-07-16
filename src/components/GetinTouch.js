@@ -18,6 +18,24 @@ function GetinTouch() {
          viewport={{ once: true }}
         > 
     <div className='flex xl:flex-row flex-col justify-center align-middle items-center mx-10 sm:my-28 my-14'>
+        {/* LinkedIn */}
+        
+        <div className='container relative  bg-primary rounded-full overflow-hidden object-center items-center border-8 border-secondary hover:border-highlight h-[40vh] w-[40vh] my-2 duration-200  mx-10  sm:scale-100 scale-[0.80]' id="outerCircle">
+          <a href="https://www.linkedin.com/company/ieencmanipal/" target="_blank" rel="noreferrer">
+          <svg fill="#907AD6" className=' absolute top-[14%] left-[14%] cursor-pointer h-[27vh] w-[27vh] rounded-full shadow-xl bg-cover max-w-full hover:scale-150 duration-200' viewBox="-806.4 -806.4 3532.80 3532.80" xmlns="http://www.w3.org/2000/svg" stroke="#907AD6"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-806.4" y="-806.4" width="3532.80" height="3532.80" rx="1766.4" fill="#7ed0ec" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1168 601.321v74.955c72.312-44.925 155.796-71.11 282.643-71.11 412.852 0 465.705 308.588 465.705 577.417v733.213L1438.991 1920v-701.261c0-117.718-42.162-140.06-120.12-140.06-74.114 0-120.12 23.423-120.12 140.06V1920l-483.604-4.204V601.32H1168Zm-687.52-.792v1318.918H0V600.53h480.48Zm-120.12 120.12H120.12v1078.678h240.24V720.65Zm687.52.792H835.267v1075.316l243.364 2.162v-580.18c0-226.427 150.51-260.18 240.24-260.18 109.55 0 240.24 45.165 240.24 260.18v580.18l237.117-2.162v-614.174c0-333.334-93.573-457.298-345.585-457.298-151.472 0-217.057 44.925-281.322 98.98l-16.696 14.173H1047.88V721.441ZM240.24 0c132.493 0 240.24 107.748 240.24 240.24 0 132.493-107.747 240.24-240.24 240.24C107.748 480.48 0 372.733 0 240.24 0 107.748 107.748 0 240.24 0Zm0 120.12c-66.186 0-120.12 53.934-120.12 120.12s53.934 120.12 120.12 120.12 120.12-53.934 120.12-120.12-53.934-120.12-120.12-120.12Z" fill-rule="evenodd"></path> </g></svg>
+
+          {/* <Wave
+      fill='#DABFFF'
+      paused={false}
+      options={{
+        height:100,
+        amplitude:30,
+        speed:0.4,
+        points:5
+      }}
+      /> */}
+       </a>
+          </div>
 
       {/* Instagram */}
           
@@ -44,7 +62,8 @@ function GetinTouch() {
        
           <div className='container relative mx-10 my-2 bg-primary rounded-full overflow-hidden object-center items-center border-8 border-secondary  hover:border-highlight h-[40vh] w-[40vh]  duration-200  sm:scale-100 scale-[0.80]'>
           <a href="mailto:ieenc1718@gmail.com" target="_blank" rel="noreferrer">
-          <svg className='absolute top-[14%] left-[14%] cursor-pointer h-[27vh] w-[27vh] rounded-full shadow-xl bg-cover max-w-full hover:scale-[2] duration-200' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" id="inner"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM8.65 14.77C8.54 15.07 8.25 15.26 7.95 15.26C7.86 15.26 7.78 15.25 7.69 15.21C6.88 14.91 6.2 14.32 5.77 13.55C4.77 11.75 5.39 9.4 7.14 8.31L9.48 6.86C10.34 6.33 11.35 6.17 12.31 6.42C13.27 6.67 14.08 7.3 14.57 8.18C15.57 9.98 14.95 12.33 13.2 13.42L12.94 13.61C12.6 13.85 12.13 13.77 11.89 13.44C11.65 13.1 11.73 12.63 12.06 12.39L12.37 12.17C13.49 11.47 13.87 10.02 13.26 8.91C12.97 8.39 12.5 8.02 11.94 7.87C11.38 7.72 10.79 7.81 10.28 8.13L7.92 9.59C6.84 10.26 6.46 11.71 7.07 12.83C7.32 13.28 7.72 13.63 8.2 13.81C8.59 13.95 8.79 14.38 8.65 14.77ZM16.92 15.65L14.58 17.1C13.99 17.47 13.33 17.65 12.66 17.65C12.36 17.65 12.05 17.61 11.75 17.53C10.79 17.28 9.98 16.65 9.5 15.77C8.5 13.97 9.12 11.62 10.87 10.53L11.13 10.34C11.47 10.1 11.94 10.18 12.18 10.51C12.42 10.85 12.34 11.32 12.01 11.56L11.7 11.78C10.58 12.48 10.2 13.93 10.81 15.04C11.1 15.56 11.57 15.93 12.13 16.08C12.69 16.23 13.28 16.14 13.79 15.82L16.13 14.37C17.21 13.7 17.59 12.25 16.98 11.13C16.73 10.68 16.33 10.33 15.85 10.15C15.46 10.01 15.26 9.58 15.41 9.19C15.55 8.8 15.99 8.6 16.37 8.75C17.18 9.05 17.86 9.64 18.29 10.41C19.28 12.21 18.67 14.56 16.92 15.65Z" fill="#77DDEE"></path> </g></svg>
+
+          <svg className='absolute top-[15%] left-[15%] cursor-pointer h-[27vh] w-[27vh] rounded-full shadow-xl bg-cover max-w-full hover:scale-[2] duration-200' viewBox="-7.5 -7.5 40.00 40.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-7.5" y="-7.5" width="40.00" height="40.00" rx="20" fill="#7ed0ec" strokewidth="0"></rect></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21.2091 5.41992C15.5991 16.0599 8.39906 16.0499 2.78906 5.41992" stroke="#907AD6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M1.99023 7.39001V17.39C1.99023 18.4509 2.41166 19.4682 3.1618 20.2184C3.91195 20.9685 4.92937 21.39 5.99023 21.39H17.9902C19.0511 21.39 20.0685 20.9685 20.8186 20.2184C21.5688 19.4682 21.9902 18.4509 21.9902 17.39V7.39001C21.9902 6.32915 21.5688 5.31167 20.8186 4.56152C20.0685 3.81138 19.0511 3.39001 17.9902 3.39001H5.99023C4.92937 3.39001 3.91195 3.81138 3.1618 4.56152C2.41166 5.31167 1.99023 6.32915 1.99023 7.39001Z" stroke="#907AD6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
 
           {/* <Wave
       fill='#DABFFF'
@@ -61,24 +80,7 @@ function GetinTouch() {
           
         
 
-          {/* LinkedIn */}
         
-          <div className='container relative  bg-primary rounded-full overflow-hidden object-center items-center border-8 border-secondary hover:border-highlight h-[40vh] w-[40vh] my-2 duration-200  mx-10  sm:scale-100 scale-[0.80]' id="outerCircle">
-          <a href="https://www.linkedin.com/company/ieencmanipal/" target="_blank" rel="noreferrer">
-          <svg  id="inner" className=' absolute top-[14%] left-[14%] cursor-pointer h-[27vh] w-[27vh] rounded-full shadow-xl bg-cover max-w-full hover:scale-150 duration-200' fill="#77DDEE" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xmlSpace="preserve" ><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9 V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7 C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6 c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z "></path> </g></svg>
-
-          {/* <Wave
-      fill='#DABFFF'
-      paused={false}
-      options={{
-        height:100,
-        amplitude:30,
-        speed:0.4,
-        points:5
-      }}
-      /> */}
-       </a>
-          </div>
          
           </div>
           </motion.div>

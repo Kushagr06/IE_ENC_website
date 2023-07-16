@@ -1,7 +1,7 @@
 [	
 	{
 	"id": 1,
-	"date": "August-September",
+	"date": "Aug",
 	"image":"1Xb7EuLFW6jFq3lep-C9_SGaRYKd4pocc",
 	"instaLink":"",
 	"formLink":"https://docs.google.com/forms/d/e/1FAIpQLSfCXEt70r0Jfu6_MoL4k_L8_PWuG9UpztHl-t3sC_1Tw0ACXA/viewform",
