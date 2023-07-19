@@ -65,6 +65,7 @@ function BoardCard() {
 
     ))
   :""}
+  {console.log(data)}
     </div>
   )
 }

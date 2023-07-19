@@ -85,7 +85,7 @@ function EventCards() {
 //  </>
 // ))
 }   
-{console.log(data)}
+
     </div>
     
   )
