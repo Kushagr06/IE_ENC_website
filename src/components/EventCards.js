@@ -9,7 +9,7 @@ function EventCards() {
   const [data, setData] = React.useState([]);
 
   React.useEffect(() => {
-    axios.get(process.env.REACT_APP_EVENTS).then((response) => {
+    axios.get(process.env.REACT_APP_BOARD).then((response) => {
       setData(response.data);
     });
   }, []);
@@ -20,7 +20,9 @@ function EventCards() {
  {
 
 //  data.length===0?
+
  <div className='flex justify-center flex-col'>
+  {console.log(process.env.REACT_APP_BOARD, data)}
  <img src={NoEvent} alt="Checkback soon for more Events :)" />
  <div className=' text-xl font-headingFont text-highlight -mt-8 text-center'>
     Checkback Later for Upcoming Events!!

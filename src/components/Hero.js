@@ -5,14 +5,12 @@ import Heading from './Heading';
 import Wave from 'react-wavify'
 import {Link} from 'react-scroll';
 import {motion} from 'framer-motion';
-import axios from 'axios';
 
 
 
 
 function Hero() {
   const[rectColor, rectColorSet] = useState('#907AD6')
-  const [data, setData] = React.useState([]);
 
   useEffect(() => {
     if (rectColor === '#907AD6' || rectColor === '#DABFFF') {
@@ -23,15 +21,11 @@ function Hero() {
     }
 });
 
-React.useEffect(() => {
-  axios.get(process.env.REACT_APP_EVENTS).then((response) => {
-    setData(response.data);
-  });
-}, []);
+
   return (
     <div id="hero" className='w-auto xl:h-screen xl:relative '>
     <div className='flex xl:flex-row flex-col-reverse mx-5 xl:-mt-12' >
-{console.log(data)}
+
       <div className='flex justify-center flex-col text-center items-center overflow-hidden relative '>
       <motion.div
       className='z-10'
