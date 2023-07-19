@@ -12,15 +12,16 @@ function Pictures(props) {
       setData(response.data);
     });
   }, []);
+  // Double Sorting of Data
   data.sort((a,b)=>a.id-b.id)
- 
   data.sort((a,b)=>a.year-b.year)
-  console.log(props.use)
+
+  // console.log(props.use)
+
   return (
     <div className='flex-row justify-center overflow-auto flex-wrap inline-flex'>
       { 
-      
-      baseURL?
+      // Filters and places year and mailbox if the photo is alumni 
       data.filter(info=>{
     return info.use===props.use
   }).map((info)=>(     
@@ -43,7 +44,7 @@ function Pictures(props) {
         :""}
         </div>
       ))
-    :""}
+      }
     </div>
   )
 }

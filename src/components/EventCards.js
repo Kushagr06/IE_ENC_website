@@ -12,16 +12,14 @@ function EventCards() {
     axios.get(baseURL).then((response) => {
       setData(response.data);
     })
-    .catch(error =>setData("error"));
+    .catch(error =>console.log(error.message));
   }, []);
   return (
     
-    <div className='flex justify-center md:flex-row flex-col flex-wrap items-center align-middle m-2'>
-      
+    <div className='flex justify-center md:flex-row flex-col flex-wrap items-center align-middle m-2'>    
  {
-
  data.length===0?
-
+// Image Appears if no Event is available in the database.
  <div className='flex justify-center flex-col'>
   {console.log(process.env.REACT_APP_BOARD, data)}
  <img src={NoEvent} alt="Checkback soon for more Events :)" />
@@ -30,13 +28,12 @@ function EventCards() {
  </div>
  </div>
  :
+//  Data is mapped if available
  data.map((data)=>(       
     <>
     
   <div className='container w-[24rem] h-auto bg-secondary rounded-2xl border-4 border-primary sm:scale-100 scale-[0.85] sm:m-5' key={data.id}> 
- 
-  <div className='flex flex-row justify-center'>
-
+    <div className='flex flex-row justify-center'>
      {/* Date */}
      <div className=' p-0 mx-0 my-auto font-headingFont font-light align-middle'>
     <div className=' text-[4vh] -rotate-90 text-highlight '>
@@ -88,7 +85,6 @@ function EventCards() {
  </>
 ))
 }   
-
     </div>
     
   )

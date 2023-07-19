@@ -39,7 +39,7 @@ function Hero() {
         > 
       <Heading text="Welcome to IE-E&C" subtext="The Official Electronics and Communication Student Club of Manipal Institute of Technology, Manipal! Established in 2011, we take great pride in being the hub for all things electronics and communication-related on campus. Whether you're a passionate tech enthusiast, a budding engineer, or simply interested in exploring the exciting world of electronics, you've come to the right place." /> 
       
-
+         {/* Events Button */}
       <button className='border-2 border-highlight px-8 py-3 rounded-xl text-highlight
       hover:text-secondary hover:bg-highlight duration-200 hover:scale-110 hover:mx-2 font-semibold mt-2 fill-highlight hover:fill-secondary z-10'> 
       <Link to="Upcoming" spy={true} smooth={true} offset={-70} duration={500} className="inline-flex">
@@ -56,12 +56,15 @@ function Hero() {
          whileInView={{x:0,opacity:1,transition:{duration:2}}}
          viewport={{ once: true }}
         > 
+
+        {/* MainImage */}
     <div className='flex justify-center sm:-mt-10 sm:scale-[.85] scale-[0.5] -mt-[28vh] sm:-mb-[10vh] -mb-[29.5vh] z-10'>
       <Banner bannercolor={rectColor}  />
       </div>
       </motion.div>
     </div>
     <div className=' w-full xl:absolute xl:bottom-0 -mt-12 opacity-[0.75]'>
+      {/* SemiTransparentWave */}
       <Wave
       fill='#DABFFF'
       paused={false}

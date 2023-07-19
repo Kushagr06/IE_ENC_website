@@ -38,8 +38,8 @@ export default class Resources extends Component {
          whileInView={{opacity:1,transition:{duration:1}}}
          viewport={{ once: true }}
         > 
+      {/* Stamp */}
     <div className='flex justify-center mt-12'>
-
       <div className='w-[75%] m-10 p-20 h-auto bg-primary rounded-2xl border-4 border-secondary align-middle flex justify-around text-[2.5vh] text-secondary md:flex-row flex-col font-medium relative ' >
 
           <div>
@@ -59,16 +59,12 @@ export default class Resources extends Component {
               Manipal, Karnataka
             </div>
           </div>
-
-          
       </div>
-      
     </div>
 
+    {/* Download Constitution button */}
     <div className='text-center items-center flex justify-around -mx-2 text-highlight font-medium text-[2.5vh]'>
-
     <div>
-
      <div className='hover:underline mb-20'>
      <button className='border-2 border-highlight px-8 py-3 rounded-xl text-highlight
       hover:text-secondary hover:bg-highlight duration-200 hover:scale-110 hover:mx-2 font-semibold mt-2 fill-highlight hover:fill-secondary z-10'> 
@@ -77,13 +73,13 @@ export default class Resources extends Component {
     <span className=' font-bold text-[2.8vh]'>
     &#8595;
     </span>
-    
     </a>
     </button>
     </div>
     </div>
     </div>
 
+    {/* Alumni Gallery */}
     <div className=' text-textcol '>
     <div className=' md:text-[2.5vh]  ml-10 text-[2vh] tracking-widest font-custom font-medium m-2 sm:ml-16'>
                     Several Branches, One Root.
