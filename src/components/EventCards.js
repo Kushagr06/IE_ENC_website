@@ -11,7 +11,8 @@ function EventCards() {
   React.useEffect(() => {
     axios.get(process.env.REACT_APP_BOARD).then((response) => {
       setData(response.data);
-    });
+    })
+    .catch(error =>setData(error.message));
   }, []);
   return (
     
