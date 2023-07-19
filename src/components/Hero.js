@@ -40,14 +40,14 @@ function Hero() {
       <Heading text="Welcome to IE-E&C" subtext="The Official Electronics and Communication Student Club of Manipal Institute of Technology, Manipal! Established in 2011, we take great pride in being the hub for all things electronics and communication-related on campus. Whether you're a passionate tech enthusiast, a budding engineer, or simply interested in exploring the exciting world of electronics, you've come to the right place." /> 
       
          {/* Events Button */}
+         <Link to="Upcoming" spy={true} smooth={true} offset={-70} duration={500} className="inline-flex">
       <button className='border-2 border-highlight px-8 py-3 rounded-xl text-highlight
-      hover:text-secondary hover:bg-highlight duration-200 hover:scale-110 hover:mx-2 font-semibold mt-2 fill-highlight hover:fill-secondary z-10'> 
-      <Link to="Upcoming" spy={true} smooth={true} offset={-70} duration={500} className="inline-flex">
-      <span >
-     <svg  width="25px" height="25px" viewBox="0 0 24 24" id="down-trend-left" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color" ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M21.71,5.29a1,1,0,0,0-1.42,0L13,12.59l-2.29-2.3a1,1,0,0,0-1.42,0L4,15.59V14a1,1,0,0,0-2,0v4a1,1,0,0,0,1,1H7a1,1,0,0,0,0-2H5.41L10,12.41l2.29,2.3a1,1,0,0,0,1.42,0l8-8A1,1,0,0,0,21.71,5.29Z"></path></g></svg></span>
-      Check Out Upcoming Events
-      </Link>
+      hover:text-secondary hover:bg-highlight duration-200 hover:scale-110 hover:mx-1 font-semibold mt-2 fill-highlight hover:fill-secondary z-10'> 
+      
+     <svg  width="25px" height="25px" viewBox="0 0 24 24" id="down-trend-left" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" className="icon flat-color inline-flex mx-1" ><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M21.71,5.29a1,1,0,0,0-1.42,0L13,12.59l-2.29-2.3a1,1,0,0,0-1.42,0L4,15.59V14a1,1,0,0,0-2,0v4a1,1,0,0,0,1,1H7a1,1,0,0,0,0-2H5.41L10,12.41l2.29,2.3a1,1,0,0,0,1.42,0l8-8A1,1,0,0,0,21.71,5.29Z"></path></g></svg>
+      <span>Check Out Upcoming Events</span>
       </button>
+      </Link>
       </motion.div>
       </div>
       <motion.div

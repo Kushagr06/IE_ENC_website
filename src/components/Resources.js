@@ -66,15 +66,15 @@ export default class Resources extends Component {
     <div className='text-center items-center flex justify-around -mx-2 text-highlight font-medium text-[2.5vh]'>
     <div>
      <div className='hover:underline mb-20'>
+     <a href={Constitution} download="Constitution">
      <button className='border-2 border-highlight px-8 py-3 rounded-xl text-highlight
       hover:text-secondary hover:bg-highlight duration-200 hover:scale-110 hover:mx-2 font-semibold mt-2 fill-highlight hover:fill-secondary z-10'> 
-    <a href={Constitution} download="Constitution">
     Our Constitution&nbsp;
     <span className=' font-bold text-[2.8vh]'>
     &#8595;
     </span>
-    </a>
     </button>
+    </a>
     </div>
     </div>
     </div>
