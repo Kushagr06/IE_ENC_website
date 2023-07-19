@@ -5,7 +5,7 @@ import NoEvent from '../assets/noEvents.svg'
 
 function EventCards() {
 
-  const baseURL=`https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/events`
+  const baseURL=process.env.REACT_APP_EVENTS
   const [data, setData] = React.useState([]);
 
   React.useEffect(() => {

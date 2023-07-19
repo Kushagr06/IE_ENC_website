@@ -2,8 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 function BoardCard() {
-  // https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/board
-  const baseURL='https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/board'
+  const baseURL=process.env.REACT_APP_BOARD
   const [data, setData] = React.useState([]);
 
   React.useEffect(() => {
@@ -17,8 +16,9 @@ function BoardCard() {
   data.sort((a,b)=>a.id-b.id)
 
   return (
+    
     <div className='flex-row justify-center overflow-auto flex-wrap inline-flex'>
-      
+      {console.log(baseURL)}
     {data.map((info)=>(
       <div className=' flex sm:m-4  md:m-2 -mx-[w/2] font-custom justify-center sm:scale-100 scale-[0.90]' key={info.id}>
        

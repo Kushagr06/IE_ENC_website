@@ -4,7 +4,7 @@ import '../App.css'
 
 // Pictures Section between What We Do and Alumni Pictures
 function Pictures(props) {
-  const baseURL=`https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/pics`
+  const baseURL=process.env.REACT_APP_PICS
   const [data, setData] = React.useState([]);
 
   React.useEffect(() => {
