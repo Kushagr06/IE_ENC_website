@@ -17,8 +17,8 @@ function EventCards() {
     
     <div className='flex justify-center md:flex-row flex-col flex-wrap items-center align-middle m-2'>
       
- {data.length===0?
- 
+ {baseURL?
+ data.length===0?
  <div className='flex justify-center flex-col'>
  <img src={NoEvent} alt="Checkback soon for more Events :)" />
  <div className=' text-xl font-headingFont text-highlight -mt-8 text-center'>
@@ -83,7 +83,7 @@ function EventCards() {
  </div>
  </>
 ))
- }   
+ :""}   
 
     </div>
     
