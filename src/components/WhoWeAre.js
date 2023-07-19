@@ -25,9 +25,9 @@ function WhoWeAre() {
         </div>
 
         <div className=' font-custom md:text-3xl tracking-wider text-textcol'>
-        BOARD  <br/>
-        MANAGEMENT COMMITTEE  <br/>
-        WORKING COMMITTEE  <br/>
+        BOARD <br/>
+        MANAGEMENT COMMITTEE<br/>
+        WORKING COMMITTEE <br/>
         </div>
        
       </div>
