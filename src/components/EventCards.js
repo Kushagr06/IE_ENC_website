@@ -17,7 +17,8 @@ function EventCards() {
     
     <div className='flex justify-center md:flex-row flex-col flex-wrap items-center align-middle m-2'>
       
- {baseURL?
+ {
+ baseURL?
  data.length===0?
  <div className='flex justify-center flex-col'>
  <img src={NoEvent} alt="Checkback soon for more Events :)" />

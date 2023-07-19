@@ -21,7 +21,7 @@ function Hero() {
   return (
     <div id="hero" className='w-auto xl:h-screen xl:relative '>
     <div className='flex xl:flex-row flex-col-reverse mx-5 xl:-mt-12' >
-
+{console.log(process.env.REACT_APP_EVENTS)}
       <div className='flex justify-center flex-col text-center items-center overflow-hidden relative '>
       <motion.div
       className='z-10'
