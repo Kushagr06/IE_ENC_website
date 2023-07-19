@@ -18,7 +18,10 @@ function Pictures(props) {
   console.log(props.use)
   return (
     <div className='flex-row justify-center overflow-auto flex-wrap inline-flex'>
-      { data.filter(info=>{
+      { 
+      
+      baseURL?
+      data.filter(info=>{
     return info.use===props.use
   }).map((info)=>(     
         <div className='flex flex-col m-5' key={info.id}>
@@ -39,7 +42,8 @@ function Pictures(props) {
         </div>
         :""}
         </div>
-      ))}
+      ))
+    :""}
     </div>
   )
 }

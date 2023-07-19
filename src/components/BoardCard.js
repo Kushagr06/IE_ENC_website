@@ -18,8 +18,9 @@ function BoardCard() {
   return (
     
     <div className='flex-row justify-center overflow-auto flex-wrap inline-flex'>
-      {console.log(baseURL)}
-    {data.map((info)=>(
+      
+    {baseURL?
+    data.map((info)=>(
       <div className=' flex sm:m-4  md:m-2 -mx-[w/2] font-custom justify-center sm:scale-100 scale-[0.90]' key={info.id}>
        
          {/* picture */}
@@ -62,7 +63,8 @@ function BoardCard() {
         </div>
       </div>
 
-    ))}
+    ))
+  :""}
     </div>
   )
 }
