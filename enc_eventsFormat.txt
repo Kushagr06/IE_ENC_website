@@ -6,7 +6,7 @@
 	"instaLink":"",
 	"formLink":"https://docs.google.com/forms/d/e/1FAIpQLSfCXEt70r0Jfu6_MoL4k_L8_PWuG9UpztHl-t3sC_1Tw0ACXA/viewform",
 	"name":"Board Selection, 2023-24",
-	"description":"Selection for the board of IE-E&C, for the year 2023. Goodluck to everyone"
+	"description":"online"
 	}
 ]
 
