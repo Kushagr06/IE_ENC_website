@@ -135,7 +135,6 @@ function EventCards() {
            }
          
 </div>
-
 </>
 ))
 }   
