@@ -88,6 +88,7 @@ function EventCards() {
 
 //NEWCARD COMPONENT
 <>
+{/* Card */}
 <div className='container h-[25rem] lg:w-1/5 md:w-1/3 w-3/4 bg-secondary rounded-2xl border-4 border-primary sm:scale-100 scale-[0.85]  sm:m-10 p-5 flex flex-col justify-center' key={data.id}> 
     {/* image */}
     <img src={`https://drive.google.com/uc?export=view&id=`+data.image} alt=" " className='w-full  bg-cover  max-w-full rounded-b-[6rem] relative -top-6 rounded-t-2xl shadow-md shadow-background'/>

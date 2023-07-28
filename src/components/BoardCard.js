@@ -24,20 +24,20 @@ function BoardCard() {
       <div className=' flex sm:m-4  md:m-2 -mx-[w/2] font-custom justify-center sm:scale-100 scale-[0.90]' key={info.id}>
        
          {/* picture */}
-         <div className='rounded-full h-32 w-32 bg-primary border-2 border-primary -mr-16 z-10 overflow-hidden object-center relative shadow-md shadow-background'>
+         <div className='rounded-full h-[7.5rem] w-[7.5rem] bg-primary  border-2 border-primary -mr-16 z-10 overflow-hidden object-center relative shadow-md shadow-background hover:border-highlight'>
             <img src={`https://drive.google.com/uc?export=view&id=`+info.pic} alt=" " className='w-auto bg-cover max-w-full absolute top-2 left-0 h-auto scale-[1.15]'/>
           </div>
 
           {/* card */}
-          <div className='rounded-2xl sm:mb-4 w-64 h-80 bg-secondary border-2 border-primary '>
+          <div className='rounded-2xl sm:mb-4 w-60 h-80 bg-secondary border-2 border-primary '>
           <div className='ml-20 mt-10 text-xl font-bold text-textcol tracking-widest w-auto h-14 '>
           {info.name}
           </div>
-          <div className='text-lg ml-5 mr-2 mt-10 font-bold text-secondary  rounded-xl p-4 bg-primary tracking-tight relative text-center '>
+          <div className='text-lg ml-5 mr-2 mt-10 font-bold text-secondary  rounded-2xl p-4 bg-primary tracking-tight relative text-center '>
             {info.position}
           </div>
 
-          <div className='flex flex-row m-5 absolute left-[25%]  mb:bottom-1 bottom-0'>
+          <div className='flex flex-row m-5 absolute left-[20%]  mb:bottom-1 bottom-0'>
             {/* LinkedIn */}
             {info.linkedIn.length>1?
           <a href={info.linkedIn}  target="_blank" rel="noreferrer">
