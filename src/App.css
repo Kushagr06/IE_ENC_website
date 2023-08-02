@@ -25,23 +25,42 @@ transition-duration:250ms;
 
 
 #ring{
-  animation: spin 15s linear infinite;
+  animation: spinner 15s linear infinite;
   position: absolute;
   top:0;
   left:0;
   
 }  
 #ring:hover {
-  animation-duration:3s;
+  animation: spin 6s linear infinite;
 } 
 
 
-@keyframes spin {
-  from {
+
+@keyframes spinner {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+  30% {
+    transform: rotate(720deg);
+  }
+  60%{
+    transform: rotate(1440deg);
+  }
+  90%{
+    transform: rotate(2880deg);
+  }
+  100%{
+    transform: rotate(5760deg);
   }
 }
 
