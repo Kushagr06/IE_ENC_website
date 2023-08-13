@@ -63,7 +63,7 @@ export default class Resources extends Component {
             Location
             </div>
             <div className='text-[4.2vh] font-bold text-center'>
-              Manipal, Karnataka
+              Manipal
             </div>
           </div>
       </div>
