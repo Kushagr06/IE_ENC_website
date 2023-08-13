@@ -43,8 +43,8 @@ export default class Resources extends Component {
       {/* Stamp */}
     <div className='flex justify-center mt-12'>
       <div className='w-[75%] m-10 p-20 h-auto bg-primary rounded-2xl border-4 border-secondary align-middle flex justify-around text-[2.5vh] text-secondary md:flex-row flex-col font-medium relative overflow-clip'>
-        <img src={Flower} alt=""  className='absolute -top-[16vh] -left-[16vh] sm:scale-100 scale-[.68]'/>
-        <img src={Globe} alt=""  className='absolute -bottom-[16vh] -right-[16vh] sm:scale-100 scale-[.68]'/>
+        <img src={Flower} alt="" id="stamp"  className='absolute -top-[16vh] -left-[16vh] sm:scale-100 scale-[.68]'/>
+        <img src={Globe} alt="" id="stamp"  className='absolute -bottom-[16vh] -right-[16vh] sm:scale-100 scale-[.68]'/>
           
           <div className='  my-2'>
             <div className='text-[2.5vh] font-medium rounded-2xl p-1 border-2 border-secondary  text-center'>

@@ -36,6 +36,10 @@ transition-duration:250ms;
 } 
 
 
+#stamp{
+  animation: spinner 10s linear infinite;
+}
+
 
 @keyframes spinner {
   0% {
