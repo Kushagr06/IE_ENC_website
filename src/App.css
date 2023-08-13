@@ -33,6 +33,7 @@ transition-duration:250ms;
 }  
 #ring:hover {
   animation: spin 6s linear infinite;
+  
 } 
 
 
