@@ -22,7 +22,7 @@ function EventCards() {
 // Image Appears if no Event is available in the database.
  <div className='flex justify-center flex-col -mt-16 sm:mt-0'>
  <img src={NoEvent} alt="Checkback soon for more Events :)" />
- <div className=' text-xl font-custom text-highlight -mt-6 text-center flex flex-wrap justify-center font-semibold'>
+ <div className=' text-xl mx-5 font-custom text-highlight -mt-6 text-center flex flex-wrap justify-center font-semibold'>
     Checkback Later for Upcoming Events!!
  </div>
  </div>
