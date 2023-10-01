@@ -1,11 +1,11 @@
 [	
 	{
 	"id": 1,
-	"date": "Aug",
-	"image":"1Xb7EuLFW6jFq3lep-C9_SGaRYKd4pocc",
+	"date": "Sep",
+	"image":"1qeJ9_K6i5aGUKuQMTAPkGVzuELumnOUW",
 	"instaLink":"",
-	"formLink":"https://docs.google.com/forms/d/e/1FAIpQLSfCXEt70r0Jfu6_MoL4k_L8_PWuG9UpztHl-t3sC_1Tw0ACXA/viewform",
-	"name":"Board Selection, 2023-24",
+	"formLink":"https://docs.google.com/forms/d/e/1FAIpQLSdg0JoOxN29zoReKZw84pFgUEKnB1EOUvH7UBY37FD_w8wpqQ/viewform",
+	"name":"Management Commitee Recruitment",
 	"description":"online"
 	}
 ]
