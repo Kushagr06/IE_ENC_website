@@ -26,7 +26,7 @@ export default class WhatWeDo extends Component {
     
     <div className='mb-16' id="WhatWeDo">
       <div className='mx-5'>
-      <Heading text="What We Do" subtext="Our mission is to foster a vibrant community of students who share a common love for electronics and related fields. We provide a platform for students to connect, collaborate, and engage in various activities and events that not only enhance their technical knowledge but also help them grow personally and professionally. We also host events such as hackathons, competitions, and guest lectures from industry professionals, some even in collaboration with other clubs or organisations, through which you get to gain both, experience in management as well as technical knowledge." /> 
+      <Heading text="What We Do" subtext="Our mission is to foster a vibrant community of students who share a common love for electronics and related fields. We provide a platform for students to connect, collaborate, and engage in various activities and events that not only enhance their technical knowledge but also help them grow personally and professionally." /> 
     </div>
 
     {/* Pyramid */}
@@ -34,6 +34,7 @@ export default class WhatWeDo extends Component {
       <Pyramid />
     </div>
     <div className=' md:text-[2.5vh] text-[2vh] tracking-widest font-custom font-medium m-2 ml-10 sm:ml-16'>
+    We also host events such as hackathons, competitions, and guest lectures from industry professionals, some even in collaboration with other clubs or organisations, through which you get to gain both, experience in management as well as technical knowledge.<br/>
                     Checkout some pictures from the latest club activities! 
                       </div>
     <label>

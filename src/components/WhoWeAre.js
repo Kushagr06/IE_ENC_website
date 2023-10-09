@@ -9,7 +9,7 @@ function WhoWeAre() {
   return (
     <div className=' mb-16' id="WhoWeAre">
     <div className='mx-5'>
-      <Heading text="Who We Are" subtext=" We are a dedicated team of students from various branches and batches, passionate about all things technology and we work tirelessly to ensure that every member has an enriching and enjoyable tenure in our club. As a member of IE-E&C, you'll have access to a wide range of opportunities to expand your horizons. From technical workshops and guest lectures by industry experts to hands-on projects and competitions, there's something for everyone. We believe in learning by doing, and our club provides ample opportunities to apply your theoretical knowledge in real-world scenarios." /> 
+      <Heading text="Who We Are" subtext=" We are a dedicated team of students from various branches and batches, passionate about all things technology and we work tirelessly to ensure that every member has an enriching and enjoyable tenure in our club. As a member of IE-E&C, you'll have access to a wide range of opportunities to expand your horizons. From technical workshops and guest lectures by industry experts to hands-on projects and competitions, there's something for everyone." /> 
     </div>
     <div className='flex xl:flex-row flex-col-reverse mx-10 my-5 justify-around'>
     <motion.div
@@ -48,7 +48,12 @@ function WhoWeAre() {
       
                     
                       </div>
+                      <div className=' md:text-[2.5vh] text-[2vh] tracking-widest font-custom font-medium m-2 ml-10 sm:ml-16'>
+                       We believe in learning by doing, and our club provides ample opportunities to apply your theoretical knowledge in real-world scenarios.<br/>
+                    Checkout some pictures from the latest club activities! 
+                      </div>
     <Board />
+    
     </div>
   )
 }
