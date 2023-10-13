@@ -50,7 +50,7 @@ function WhoWeAre() {
                       </div>
                       <div className=' md:text-[2.5vh] text-[2vh] tracking-widest font-custom font-medium m-2 ml-10 sm:ml-16'>
                        We believe in learning by doing, and our club provides ample opportunities to apply your theoretical knowledge in real-world scenarios.<br/>
-                    Checkout some pictures from the latest club activities! 
+                   Here is our Board!
                       </div>
     <Board />
     
