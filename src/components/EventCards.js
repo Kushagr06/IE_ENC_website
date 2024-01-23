@@ -91,7 +91,7 @@ function EventCards() {
 {/* Card */}
 <div className='container h-[25rem] lg:w-1/5 md:w-1/3 w-3/4 bg-secondary rounded-2xl border-4 border-primary sm:scale-100 scale-[0.85]  sm:m-10 p-5 flex flex-col justify-center' key={data.id}> 
     {/* image */}
-    <a href="https://ibb.co/FKxYyFx"><img src="https://i.ibb.co/L8kgc3k/encc.jpg" alt="encc" border="0"></a>
+    <a href="https://ibb.co/47f59XX"><img src="https://i.ibb.co/HV2k1bb/encc.jpg" alt="encc" border="0"></a>
     {/* Join Link */}
     {
         data.formLink?
