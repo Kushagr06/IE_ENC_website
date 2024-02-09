@@ -32,7 +32,7 @@ function Pictures(props) {
         </div>
         :""}
 
-        <img src={`https://drive.google.com/uc?export=view&id=`+info.pic} alt={info.id} key={info.id} id="groupImg" className='w-auto rounded-xl md:h-[50vh] h-[25vh] m-2 border-8 border-secondary mb-4' />
+        <img src={`https://drive.usercontent.google.com/download?id=`+info.pic + &export=view&authuser=0} alt={info.id} key={info.id} id="groupImg" className='w-auto rounded-xl md:h-[50vh] h-[25vh] m-2 border-8 border-secondary mb-4' />
         {info.contact?
         <div className='bg-secondary text-highlight text-center -mt-6 text-[3.5vh] border-b-8 border-highlight flex justify-center rounded-xl' id="groupImg">
            
