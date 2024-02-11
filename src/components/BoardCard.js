@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 
 function BoardCard() {
-  const baseURL='https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/board'
+  //const baseURL='https://ap-south-1.aws.data.mongodb-api.com/app/application-0-wzbdi/endpoint/board'
   const [data, setData] = React.useState([]);
 
   React.useEffect(() => {
