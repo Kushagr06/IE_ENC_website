@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios';
+import Jeewant from '.\IE-ENC\Jeewant.jpeg';
 import NoEvent from '../assets/noEvents.svg'
 
 
@@ -92,7 +93,8 @@ function EventCards() {
 <div className='container h-[25rem] lg:w-1/5 md:w-1/3 w-3/4 bg-secondary rounded-2xl border-4 border-primary sm:scale-100 scale-[0.85]  sm:m-10 p-5 flex flex-col justify-center' key={data.id}> 
     {/* image */}
    // <a href="https://ibb.co/47f59XX"><img src="https://imgur.com/a/CG06vXA" alt="encc" border="0"></a>
-  <blockquote class="imgur-embed-pub" lang="en" data-id="a/CG06vXA" data-context="false" ><a href="//imgur.com/a/CG06vXA"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+  
+  //<blockquote class="imgur-embed-pub" lang="en" data-id="a/CG<a href="//imgur.com/a/CG06vXA"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
     {/* Join Link */}
     {
         data.formLink?
