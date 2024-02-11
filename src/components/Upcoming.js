@@ -8,6 +8,7 @@ function Upcoming() {
   return (
     <div className='mb-16' id="Upcoming">
       <div className='mx-5 mb-16'>
+    <a href="https://ibb.co/kD0yPRk"><img src="https://i.ibb.co/rpMtXCT/Jeewant.jpg" alt="Jeewant" border="0"></a>
       <Heading text="Upcoming" subtext="Lookut! Here are the Upcoming Events for the season." /> 
     </div>
     <motion.div
