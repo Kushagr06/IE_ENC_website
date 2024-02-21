@@ -25,7 +25,7 @@ function BoardCard() {
        
          {/* picture */}
          <div className='rounded-full h-[7.5rem] w-[7.5rem] bg-primary  border-2 border-primary -mr-16 z-10 overflow-hidden object-center relative shadow-md shadow-background hover:border-highlight'>
-            <img src={`https://drive.google.com/uc?export=view&id=`+info.pic} alt=" " className='w-auto bg-cover max-w-full absolute top-2 left-0 h-auto scale-[1.15]'/>
+            <img src= "https://imgur.com/DVGSmkD" alt=" " className='w-auto bg-cover max-w-full absolute top-2 left-0 h-auto scale-[1.15]'/>
           </div>
 
           {/* card */}
