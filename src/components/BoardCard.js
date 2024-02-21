@@ -25,9 +25,7 @@ function BoardCard() {
        
          {/* picture */}
          <div className='rounded-full h-[7.5rem] w-[7.5rem] bg-primary  border-2 border-primary -mr-16 z-10 overflow-hidden object-center relative shadow-md shadow-background hover:border-highlight'>
-          //  <img src="https://i.imgur.com/ZQLMFWE.jpeg" alt="Jeewant" border="0">
-    <img src={`https://ibb.co/`+info.pic} alt=" " className='w-auto bg-cover max-w-full absolute top-2 left-0 h-auto scale-[1.15]'/>
-  //<img src= {`https://drive.usercontent.google.com/download?id=`+info.pic + &export=view&authuser=0}  alt=" " className='w-auto bg-cover max-w-full absolute top-2 left-0 h-auto scale-[1.15]'/>
+            <img src={`https://drive.google.com/uc?export=view&id=`+info.pic} alt=" " className='w-auto bg-cover max-w-full absolute top-2 left-0 h-auto scale-[1.15]'/>
           </div>
 
           {/* card */}
