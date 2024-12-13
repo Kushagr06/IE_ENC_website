@@ -56,18 +56,18 @@ function BoardCard() {
               {info.position}
             </div>
 
-            <div className="flex flex-row m-5 absolute left-[20%] mb:bottom-1 bottom-0">
+            <div className="flex flex-row m-5 justify-center gap-3 mb:bottom-1 bottom-3">
               {/* LinkedIn */}
               {info.linkedIn && (
                 <a href={info.linkedIn} target="_blank" rel="noreferrer">
-                  {/* LinkedIn SVG */}
+                  <img src="/linkedin.svg" alt="LinkedIn" />
                 </a>
               )}
 
               {/* Instagram */}
               {info.instagram && (
                 <a href={info.instagram} target="_blank" rel="noreferrer">
-                  {/* Instagram SVG */}
+                  <img src="/instagram.svg" alt="Instagram" />
                 </a>
               )}
 
@@ -78,7 +78,7 @@ function BoardCard() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {/* Email SVG */}
+                  <img src="/mail.svg" alt="E-Mail" />
                 </a>
               )}
             </div>

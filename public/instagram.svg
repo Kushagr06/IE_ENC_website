@@ -1,0 +1,13 @@
+<svg className='m-2 shadow-md shadow-background rounded-full cursor-pointer hover:scale-125 duration-200 fill-highlight' width="50px" height="50px" viewBox="-5.52 -5.52 35.04 35.04" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <g id="SVGRepo_bgCarrier" strokeWidth="0">
+        <rect x="-5.52" y="-5.52" width="35.04" height="35.04" rx="17.52" fill="#7ed0ec" strokewidth="0"></rect>
+    </g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+        <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#4F518C" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"></path>
+        <path d="M12 15.5C13.933 15.5 15.5 13.933 15.5 12C15.5 10.067 13.933 8.5 12 8.5C10.067 8.5 8.5 10.067 8.5 12C8.5 13.933 10.067 15.5 12 15.5Z" stroke="#4F518C" strokeWidth="1.5" strokeLinecap="round" stroke-linejoin="round"></path>
+        <path d="M17.6361 7H17.6477" stroke="#4F518C" strokeWidth="2" strokeLinecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>
+         
