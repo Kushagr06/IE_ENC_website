@@ -62,18 +62,18 @@ function ArticleCard() {
                   <span className="font-semibold">{article.date}</span>
                 </p>
 
-                {/* Article Content */}
+                {/* Article Content
                 <p className="text-gray-800 mb-6">
-                  {article.content.length > 150
-                    ? `${article.content.substring(0, 150)}...`
+                  {article.content.length > 50
+                    ? `${article.content.substring(0, 50)}...`
                     : article.content}
-                </p>
+                </p> */}
                 {/* Read More Button */}
                 <a
                   href={`/articles/${article.id}`}
                   className="text-highlight font-semibold hover:underline"
                 >
-                  Read More
+                  Read
                 </a>
               </div>
             ))

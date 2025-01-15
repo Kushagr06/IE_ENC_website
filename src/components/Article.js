@@ -51,15 +51,44 @@ function ArticlePage() {
       {/* Article Title */}
       <h1 className="text-4xl font-bold mb-4">{article.title}</h1>
       {/* Author and Date */}
-      <div className="text-highlight mb-6">
+      <div className="text-highlight mb-6 flex justify-between text-xl">
         <p>
           By <span className="font-semibold">{article.author}</span>
         </p>
-        <p>Published on {article.date}</p>
+        <p>
+          Published on <span className="font-semibold">{article.date}</span>
+        </p>
       </div>
       {/* Article Content */}
       <div className="text-lg text-gray-300 leading-relaxed">
-        <p>{article.content}</p>
+        {article.content.sub_headings.map((sub_heading, index) => (
+          <div key={index} className="mb-8">
+            <h2 className="text-2xl text-highlight font-semibold mb-2">
+              {sub_heading}
+            </h2>
+            <p>{article.content.desc[index]}</p>
+          </div>
+        ))}
+      </div>
+      {/* References */}
+      <div className="mt-12">
+        <h2 className="text-2xl font-semibold text-highlight mb-4">
+          References
+        </h2>
+        <ul className="list-disc text-gray-300 pl-8">
+          {article.refs.map((ref, index) => (
+            <li key={index}>
+              <a
+                href={ref.ref}
+                target="_blank"
+                rel="noreferrer"
+                className="text-blue-400"
+              >
+                {ref.disp}
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
