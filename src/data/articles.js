@@ -2,7 +2,7 @@ export const articles = [
   {
     id: 1,
     title:
-      "Unleashing the Implicit of Artificial Intelligence in Healthcare Diagnostics",
+      "Unleashing the Potential of Artificial Intelligence in Healthcare Diagnostics",
     img: "/article1.jpg",
     author: "Palak Shekhawat",
     date: "14-01-2025",
